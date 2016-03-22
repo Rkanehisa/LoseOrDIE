@@ -1741,4 +1741,52 @@ Target is User Widget'.
 [2016.03.22-19.43.22:147][598]LogPlayLevel: PIE: World Init took: (0.001433s)
 [2016.03.22-19.43.22:148][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037271s)
 [2016.03.22-19.43.22:148][598]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.22-19.43.22:245][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-19.43.22:245][598]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-19.43.22:267][598]LogInit: FAudioDevice initialized.
+[2016.03.22-19.43.22:306][598]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.22-19.43.22:309][598]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.22-16.43.22
+[2016.03.22-19.43.22:309][598]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-19.43.22:309][598]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.22-19.43.22:310][598]LogWorld: Bringing up level for play took: 0.003016
+[2016.03.22-19.43.22:324][598]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.089
+[2016.03.22-19.43.22:325][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-19.44.23:935][279]LogScript:Warning: Cannot access 'BP_TrackCurveRight30_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsBP_Track2'
+	RunCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.RunCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter_C:ExecuteUbergraph_RunCharacter:10BE
+[2016.03.22-19.44.23:935][279]PIE:Error: Error Cannot access 'BP_TrackCurveRight30_C_4'. It is pending kill. Property: 'K2Node_DynamicCast_AsBP_Track2' from node Cast To BP_Track in graph 'EventGraph' in blueprint RunCharacter
+[2016.03.22-19.44.40:861][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-19.44.40:905][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-19.44.40:989][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A3D82E80
+[2016.03.22-19.44.55:613][ 36]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-19.45.04:092][497]BlueprintLog: New page: Compile RunCharacter
+[2016.03.22-19.45.04:660][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.03.22-19.45.04:919][497]BlueprintEditorCompileResults: Info [2753.71] Compile of RunCharacter successful! [in 827 ms]
+[2016.03.22-19.51.43:199][454]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-19.51.43:572][454]LogSavePackage: Save=220.680603ms
+[2016.03.22-19.51.43:572][454]LogSavePackage: Moving 'D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/ThirdPersonExampleMap_Auto1A6C327E74053C9F494A7CCB025799447.tmp' to 'D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2016.03.22-19.51.43:577][454]LogSavePackage: Total save time: 258.641485ms
+[2016.03.22-19.51.43:577][454]LogSavePackage:Display: Finished SavePackage D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2016.03.22-19.51.43:579][454]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.381
+[2016.03.22-19.51.43:579][454]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.381
+[2016.03.22-19.51.43:602][454]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/RunCharacter] ([1] browsable assets)...
+[2016.03.22-19.51.43:655][454]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter]
+[2016.03.22-19.51.43:655][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/RunCharacter]
+[2016.03.22-19.51.44:147][454]LogSavePackage: Save=474.219971ms
+[2016.03.22-19.51.44:147][454]LogSavePackage: Moving 'D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/RunCharacter_Auto12418EFE6454F2992C4517DBA93B4F32A.tmp' to 'D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto1.uasset'
+[2016.03.22-19.51.44:149][454]LogSavePackage: Total save time: 492.442317ms
+[2016.03.22-19.51.44:149][454]LogSavePackage:Display: Finished SavePackage D:/Home/Documents/Unreal Engine Projects/LoseOrDIE/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/RunCharacter_Auto1.uasset
+[2016.03.22-19.51.44:149][454]LogFileHelpers: Auto-saving content packages took 0.556
+[2016.03.22-19.53.50:347][923]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.03.22-19.53.50:347][923]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.22-19.53.50:347][923]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 22, 2016, 1:53:50 PM)
+[2016.03.22-19.53.50:347][923]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.03.22-19.53.50:381][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033304s)
+[2016.03.22-19.53.50:382][923]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.03.22-19.53.50:382][923]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2016.03.22-19.53.50:382][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034901s)
+[2016.03.22-19.53.50:382][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.22-19.53.50:493][923]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.22-19.53.50:517][923]LogInit: FAudioDevice initialized.
+[2016.03.22-19.53.50:560][923]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.22-19.53.50:564][923]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.03.22-16.53.50
+[2016.03.22-19.53.50:564][9

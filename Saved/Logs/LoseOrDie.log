@@ -1,160 +1,619 @@
-﻿[2016.03.23-07.55.14:368][  0]Log file open, 03/23/16 04:55:14
-[2016.03.23-07.55.14:368][  0]LogInit:Display: Running engine for game: LoseOrDie
-[2016.03.23-07.55.14:368][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.23-07.55.14:368][  0]LogInit:Display: RandInit(-742422195) SRandInit(-742422193).
-[2016.03.23-07.55.14:368][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.23-07.55.14:368][  0]LogStats: Stats thread started at 0.121820
-[2016.03.23-07.55.14:368][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.23-07.55.14:368][  0]LogInit: API Version: 2758231
-[2016.03.23-07.55.14:368][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.23-07.55.14:368][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.23-07.55.14:368][  0]LogInit: Build Configuration: Development
-[2016.03.23-07.55.14:368][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.23-07.55.14:368][  0]LogInit: Command line:  
-[2016.03.23-07.55.14:368][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.23-07.55.14:368][  0]LogInit: Rocket: 1
-[2016.03.23-07.55.14:621][  0]LogInit: Using libcurl 7.41.0
-[2016.03.23-07.55.14:621][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.23-07.55.14:621][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.23-07.55.14:621][  0]LogInit:  - other features:
-[2016.03.23-07.55.14:621][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.23-07.55.14:621][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.23-07.55.14:621][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.23-07.55.14:621][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.23-07.55.14:621][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.23-07.55.14:621][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.23-07.55.14:621][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.23-07.55.14:621][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.23-07.55.14:621][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.23-07.55.14:621][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.23-07.55.14:961][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.23-07.55.14:967][  0]LogInit: Object subsystem initialized
-[2016.03.23-07.55.14:968][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.23-07.55.14:968][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.23-07.55.14:976][  0]LogInit: Computer: HP
-[2016.03.23-07.55.14:976][  0]LogInit: User: SAA
-[2016.03.23-07.55.14:976][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.23-07.55.14:976][  0]LogInit: High frequency timer resolution =2.435777 MHz
-[2016.03.23-07.55.14:976][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.03.23-07.55.14:976][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.23-07.55.14:976][  0]LogMemory: Process Physical Memory: 56.10 MB used, 56.10 MB peak
-[2016.03.23-07.55.14:976][  0]LogMemory: Process Virtual Memory: 56.77 MB used, 56.77 MB peak
-[2016.03.23-07.55.14:976][  0]LogMemory: Physical Memory: 9109.94 MB used, 16316.02 MB total
-[2016.03.23-07.55.14:976][  0]LogMemory: Virtual Memory: 382.59 MB used, 134217728.00 MB total
-[2016.03.23-07.55.16:042][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
-[2016.03.23-07.55.16:484][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
-[2016.03.23-07.55.16:484][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
-[2016.03.23-07.55.17:373][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2016.03.23-07.55.17:373][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.23-07.55.17:375][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.23-07.55.17:375][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.23-07.55.17:375][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.23-07.55.17:383][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.23-07.55.17:383][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.23-07.55.17:397][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.23-07.55.17:414][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/7772/).
-[2016.03.23-07.55.17:414][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/2EA75E7646D196669995A380FA6416F5/'.
-[2016.03.23-07.55.17:414][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.23-07.55.20:572][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.23-07.55.20:592][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.23-07.55.20:611][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.23-07.55.20:632][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.23-07.55.20:659][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.23-07.55.20:682][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.23-07.55.20:699][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.23-07.55.20:725][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.23-07.55.20:745][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.23-07.55.20:757][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.23-07.55.20:782][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.23-07.55.20:817][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.23-07.55.20:817][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.23-07.55.20:842][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.23-07.55.20:925][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.23-07.55.20:941][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.23-07.55.20:966][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.23-07.55.20:985][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.23-07.55.20:985][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.23-07.55.21:702][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.23-07.55.21:742][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.23-07.55.21:742][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.23-07.55.21:742][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.23-07.55.21:742][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.23-07.55.21:743][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.23-07.55.21:743][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.23-07.55.21:799][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.23-07.55.21:811][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.23-07.55.22:025][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.23-07.55.22:028][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.23-07.55.22:243][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.23-07.55.22:243][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.23-07.55.22:549][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.23-07.55.25:492][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.23-07.55.25:981][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
-[2016.03.23-07.55.27:630][  0]SourceControl: Info Source control is disabled
-[2016.03.23-07.55.30:561][  0]SourceControl: Info Source control is disabled
-[2016.03.23-07.55.30:646][  0]SourceControl: Info Source control is disabled
-[2016.03.23-07.55.30:712][  0]SourceControl: Info Source control is disabled
-[2016.03.23-07.55.31:659][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2016.03.23-07.55.31:659][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
-[2016.03.23-07.55.31:786][  0]LogEngine: Initializing Engine...
-[2016.03.23-07.55.31:820][  0]OCULUS: Info: 03/23/16 07:55:31: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+﻿[2016.03.23-18.36.55:962][  0]Log file open, 03/23/16 15:36:55
+[2016.03.23-18.36.55:963][  0]LogInit:Display: Running engine for game: LoseOrDie
+[2016.03.23-18.36.55:963][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.23-18.36.55:963][  0]LogInit:Display: RandInit(-1435358670) SRandInit(-1435358669).
+[2016.03.23-18.36.55:963][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.23-18.36.55:963][  0]LogStats: Stats thread started at 0.125973
+[2016.03.23-18.36.55:963][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.23-18.36.55:963][  0]LogInit: API Version: 2758231
+[2016.03.23-18.36.55:963][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.23-18.36.55:963][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.23-18.36.55:963][  0]LogInit: Build Configuration: Development
+[2016.03.23-18.36.55:963][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.23-18.36.55:963][  0]LogInit: Command line:  
+[2016.03.23-18.36.55:963][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.23-18.36.55:963][  0]LogInit: Rocket: 1
+[2016.03.23-18.36.55:976][  0]LogInit: Using libcurl 7.41.0
+[2016.03.23-18.36.55:976][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.23-18.36.55:976][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.23-18.36.55:976][  0]LogInit:  - other features:
+[2016.03.23-18.36.55:976][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.23-18.36.55:976][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.23-18.36.55:976][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.23-18.36.55:976][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.23-18.36.55:976][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.23-18.36.55:976][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.23-18.36.55:976][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.23-18.36.55:976][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.23-18.36.55:976][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.23-18.36.55:976][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.23-18.36.56:018][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.23-18.36.56:024][  0]LogInit: Object subsystem initialized
+[2016.03.23-18.36.56:025][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.36.56:025][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.23-18.36.56:032][  0]LogInit: Computer: HP
+[2016.03.23-18.36.56:032][  0]LogInit: User: SAA
+[2016.03.23-18.36.56:032][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.23-18.36.56:032][  0]LogInit: High frequency timer resolution =2.435777 MHz
+[2016.03.23-18.36.56:032][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.23-18.36.56:032][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.23-18.36.56:032][  0]LogMemory: Process Physical Memory: 56.27 MB used, 56.27 MB peak
+[2016.03.23-18.36.56:032][  0]LogMemory: Process Virtual Memory: 56.77 MB used, 56.77 MB peak
+[2016.03.23-18.36.56:032][  0]LogMemory: Physical Memory: 4820.12 MB used, 16316.02 MB total
+[2016.03.23-18.36.56:032][  0]LogMemory: Virtual Memory: 382.59 MB used, 134217728.00 MB total
+[2016.03.23-18.36.56:093][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.03.23-18.36.56:512][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
+[2016.03.23-18.36.56:512][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
+[2016.03.23-18.36.56:518][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.23-18.36.56:518][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.23-18.36.56:520][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.23-18.36.56:520][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.23-18.36.56:520][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.23-18.36.56:526][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.23-18.36.56:526][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.23-18.36.56:539][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.23-18.36.56:555][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/35732/).
+[2016.03.23-18.36.56:555][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/71ACB09B4B904112678BD396A358017F/'.
+[2016.03.23-18.36.56:555][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.23-18.36.59:571][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.23-18.36.59:577][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.23-18.36.59:583][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.23-18.36.59:589][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.23-18.36.59:595][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.23-18.36.59:598][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.23-18.36.59:611][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.23-18.36.59:615][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.23-18.36.59:619][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.23-18.36.59:622][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.23-18.36.59:626][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.23-18.36.59:633][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.23-18.36.59:633][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.23-18.36.59:634][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.23-18.36.59:653][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.23-18.36.59:656][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.23-18.36.59:659][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.23-18.36.59:662][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.23-18.36.59:662][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.23-18.36.59:790][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.23-18.36.59:831][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.23-18.36.59:887][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.23-18.36.59:899][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.23-18.37.00:100][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.23-18.37.00:102][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.23-18.37.00:212][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.23-18.37.00:212][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.23-18.37.00:426][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.23-18.37.01:436][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.23-18.37.01:569][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.03.23-18.37.01:774][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.37.04:735][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.37.04:752][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.37.04:769][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.37.05:115][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.23-18.37.05:115][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.23-18.37.05:169][  0]LogEngine: Initializing Engine...
+[2016.03.23-18.37.05:183][  0]OCULUS: Info: 03/23/16 18:37:05: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
 
-[2016.03.23-07.55.31:820][  0]OCULUS: Info: 03/23/16 07:55:31: [IPC] Call Stats for SetInitialState : x1: C2S=36.1281, S2C=4.10547, Runtime=56.6554 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+[2016.03.23-18.37.05:184][  0]OCULUS: Info: 03/23/16 18:37:05: [IPC] Call Stats for SetInitialState : x1: C2S=36.1281, S2C=4.51601, Runtime=58.7082 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
 
-[2016.03.23-07.55.31:820][  0]OCULUS: Info: 03/23/16 07:55:31: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=18.0641, S2C=2.87383, Runtime=0.821093 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+[2016.03.23-18.37.05:184][  0]OCULUS: Info: 03/23/16 18:37:05: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=18.4746, S2C=2.87383, Runtime=11.4953 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
 
-[2016.03.23-07.55.32:025][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2016.03.23-07.55.32:166][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.23-07.55.32:174][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.23-07.55.32:258][  0]LogInit: FAudioDevice initialized.
-[2016.03.23-07.55.32:279][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.23-07.55.32:282][  0]LogInit: Texture streaming: Enabled
-[2016.03.23-07.55.32:329][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.23-07.55.32:329][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.23-07.55.32:330][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6e58a904b162431bdc4319006156b95|d87a143c86174d7ea2ead77b8ac6e0d8|a54faa0c-de25-4ef6-94d5-27208093865c
-[2016.03.23-07.55.32:330][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.23-07.55.32:360][  0]LogInit: Transaction tracking system initialized
-[2016.03.23-07.55.32:528][  0]BlueprintLog: New page: Editor Load
-[2016.03.23-07.55.33:582][  0]LocalizationService: Info Localization service is disabled
-[2016.03.23-07.55.34:054][  0]LogConsoleResponse:Display: 
-[2016.03.23-07.55.34:221][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.23-07.55.34:628][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.01s
-[2016.03.23-07.55.34:628][  0]SourceControl: Info Source control is disabled
-[2016.03.23-07.55.34:628][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Maps/MapaCorrida.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.23-07.55.34:629][  0]LightingResults: New page: Lighting Build
-[2016.03.23-07.55.34:633][  0]MapCheck: New page: Map Check
-[2016.03.23-07.55.34:633][  0]LightingResults: New page: Lighting Build
-[2016.03.23-07.55.34:645][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001B9774F36A0
-[2016.03.23-07.55.35:937][  0]LogAIModule: Creating AISystem for world MapaCorrida
-[2016.03.23-07.55.35:943][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.23-07.55.35:943][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.23-07.55.36:052][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 108.549ms to complete.
-[2016.03.23-07.55.36:052][  0]LogFileHelpers: Loading map 'MapaCorrida' took 1.424
-[2016.03.23-07.55.36:186][  0]LogCollectionManager: Loaded 0 collections in 0.003243 seconds
-[2016.03.23-07.55.36:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Collections/' took 0.01s
-[2016.03.23-07.55.36:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Developers/SAA/Collections/' took 0.01s
-[2016.03.23-07.55.36:227][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Collections/' took 0.01s
-[2016.03.23-07.55.36:227][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.03.23-07.55.36:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 1893 classes and 338 folders.
-[2016.03.23-07.55.36:243][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.03.23-07.55.36:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.03.23-07.55.36:431][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.03.23-07.55.36:507][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.23-07.55.36:512][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.23-07.55.36:534][  0]LogLoad: Full Startup: 23.16 seconds (BP compile: 0.43 seconds)
-[2016.03.23-07.55.36:873][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
-[2016.03.23-07.55.36:942][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.03.23-07.55.37:077][  0]LogRenderer: Reallocating scene render targets to support 1308x596 (Frame:2).
-[2016.03.23-07.55.37:206][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.32s
-[2016.03.23-07.55.39:544][  8]LogAssetRegistry: Asset discovery search completed in 13.5743 seconds
-[2016.03.23-07.55.39:544][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.03.23-07.55.39:544][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.03.23-07.55.50:554][172]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.23-07.55.50:912][172]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
-[2016.03.23-07.55.54:158][342]LogRenderer: Reallocating scene render targets to support 1308x692 (Frame:231).
-[2016.03.23-07.56.04:700][961]BlueprintLog: New page: Compile Espinhos_BP
-[2016.03.23-07.56.04:760][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.23-07.56.04:760][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.23-07.56.04:760][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
-[2016.03.23-07.56.04:760][961]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
-[2016.03.23-07.56.04:837][961]B
+[2016.03.23-18.37.05:200][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.23-18.37.05:313][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.23-18.37.05:344][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-18.37.05:363][  0]LogInit: FAudioDevice initialized.
+[2016.03.23-18.37.05:384][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.23-18.37.05:387][  0]LogInit: Texture streaming: Enabled
+[2016.03.23-18.37.05:394][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.23-18.37.05:394][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.23-18.37.05:394][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6e58a904b162431bdc4319006156b95|d87a143c86174d7ea2ead77b8ac6e0d8|a54faa0c-de25-4ef6-94d5-27208093865c
+[2016.03.23-18.37.05:395][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.23-18.37.05:406][  0]LogInit: Transaction tracking system initialized
+[2016.03.23-18.37.05:475][  0]BlueprintLog: New page: Editor Load
+[2016.03.23-18.37.05:599][  0]LocalizationService: Info Localization service is disabled
+[2016.03.23-18.37.05:694][  0]LogConsoleResponse:Display: 
+[2016.03.23-18.37.05:796][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.23-18.37.05:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.01s
+[2016.03.23-18.37.05:876][  0]SourceControl: Info Source control is disabled
+[2016.03.23-18.37.05:876][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Maps/MapaCorrida.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.23-18.37.05:877][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.37.05:881][  0]MapCheck: New page: Map Check
+[2016.03.23-18.37.05:881][  0]LightingResults: New page: Lighting Build
+[2016.03.23-18.37.05:891][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001596968F6A0
+[2016.03.23-18.37.07:079][  0]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-18.37.07:085][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.23-18.37.07:086][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.23-18.37.07:183][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.214ms to complete.
+[2016.03.23-18.37.07:183][  0]LogFileHelpers: Loading map 'MapaCorrida' took 1.307
+[2016.03.23-18.37.07:291][  0]LogCollectionManager: Loaded 0 collections in 0.003108 seconds
+[2016.03.23-18.37.07:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Collections/' took 0.01s
+[2016.03.23-18.37.07:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Developers/SAA/Collections/' took 0.01s
+[2016.03.23-18.37.07:331][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Collections/' took 0.01s
+[2016.03.23-18.37.07:331][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.23-18.37.07:337][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 1893 classes and 338 folders.
+[2016.03.23-18.37.07:346][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.23-18.37.07:413][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.23-18.37.07:419][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.23-18.37.07:481][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.23-18.37.07:485][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.23-18.37.07:508][  0]LogLoad: Full Startup: 12.05 seconds (BP compile: 0.41 seconds)
+[2016.03.23-18.37.07:526][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.23-18.37.07:526][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.23-18.37.07:526][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.23-18.37.07:588][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.23-18.37.07:726][  0]LogRenderer: Reallocating scene render targets to support 1308x596 (Frame:2).
+[2016.03.23-18.37.07:791][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.25s
+[2016.03.23-18.37.08:272][ 12]LogAssetRegistry: Asset discovery search completed in 6.7149 seconds
+[2016.03.23-18.37.08:273][ 12]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.23-18.37.08:273][ 12]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2016.03.23-18.37.15:285][275]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.23-18.37.15:639][275]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.03.23-18.38.21:406][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.38.21:406][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-18.38.21:406][425]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 12:38:21 PM)
+[2016.03.23-18.38.21:406][425]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-18.38.21:431][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024946s)
+[2016.03.23-18.38.21:432][425]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-18.38.21:432][425]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2016.03.23-18.38.21:433][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.026144s)
+[2016.03.23-18.38.21:433][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.38.21:526][425]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-18.38.21:540][425]LogInit: FAudioDevice initialized.
+[2016.03.23-18.38.21:594][425]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-18.38.21:597][425]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-15.38.21
+[2016.03.23-18.38.21:597][425]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.38.21:598][425]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.38.21:598][425]LogWorld: Bringing up level for play took: 0.002654
+[2016.03.23-18.38.21:606][425]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida -0.356
+[2016.03.23-18.38.21:606][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.38.42:648][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.38.42:734][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.38.42:762][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001596DD27F60
+[2016.03.23-18.43.17:454][419]LogRenderer: Reallocating scene render targets to support 1308x692 (Frame:2890).
+[2016.03.23-18.44.09:003][795]OCULUS: Info: 03/23/16 18:44:09: [From Service] 03/23/16 18:44:09: [AppFocusObserver] Reacting to session change notification (WM_WTSSESSION_CHANGE/WTS_SESSION_LOCK).
+
+[2016.03.23-18.44.10:215][799]OCULUS: Info: 03/23/16 18:44:10: [From Service] 03/23/16 18:44:10: [AppFocusObserver] Reacting to power management event (WM_POWERBROADCAST/PBT_APMSUSPEND).
+
+[2016.03.23-18.51.55:664][809]OCULUS: Info: 03/23/16 18:51:55: [From Service] 03/23/16 18:51:55: {ERR-027} [WatchDogObserver] Deadlock detected: DeviceManager
+[2016.03.23-18.51.59:064][818]OCULUS: Info: 03/23/16 18:51:59: [From Service] 03/23/16 18:51:59: ---DEADLOCK STATE---
+
+Thread handle: 0x000000000000049c, id: 16332 (0x3fcc), stack base: 0x0000007d51d00000, stack limit: 0x0000007d51cde000
+0  ntdll.dll                0x00007ffd73185c24 ZwWaitForMultipleObjects+20
+1  KERNELBASE.dll           0x00007ffd6f823b4f WaitForMultipleObjectsEx+239
+2  KERNELBASE.dll           0x00007ffd6f823a4e WaitForMultipleObjects+14
+3  OVRServer_x64.exe        0x00007ff7407eb1bf +-1
+4  OVRServer_x64.exe        0x00007ff7407ebade +-1
+5  OVRServer_x64.exe        0x00007ff74091ba0c hid_write+480140
+6  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+7  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 17924 (0x4604), stack base: 0x0000007d51e00000, stack limit: 0x0000007d51dfd000
+0  USER32.dll               0x00007ffd72b21f74 InvalidateRect+84
+1  USER32.dll               0x00007ffd72b12e15 GetMessageW+37
+2  OVRServer_x64.exe        0x00007ff740803e02 +-1
+3  OVRServer_x64.exe        0x00007ff740802067 +-1
+4  OVRServer_x64.exe        0x00007ff740918f98 hid_write+469272
+5  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+6  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+7  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+8  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 50748 (0xc63c), stack base: 0x0000007d52000000, stack limit: 0x0000007d51ffd000
+0  ntdll.dll                0x00007ffd731887e4 ZwWaitForWorkViaWorkerFactory+20
+1  ntdll.dll                0x00007ffd7310b5e8 RtlAcquireSRWLockShared+15912
+2  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+3  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 48924 (0xbf1c), stack base: 0x0000007d52100000, stack limit: 0x0000007d520fd000
+0  ntdll.dll                0x00007ffd73185154 NtWaitForSingleObject+20
+1  KERNELBASE.dll           0x00007ffd6f7faadf WaitForSingleObjectEx+143
+2  OVRServer_x64.exe        0x00007ff740958f15 hid_write+731285
+3  OVRServer_x64.exe        0x00007ff740925bfe hid_write+521598
+4  OVRServer_x64.exe        0x00007ff740919178 hid_write+469752
+5  OVRServer_x64.exe        0x00007ff74082515f +-1
+6  OVRServer_x64.exe        0x00007ff74082685d +-1
+7  OVRServer_x64.exe        0x00007ff7407f38d2 +-1
+8  OVRServer_x64.exe        0x00007ff7407f408c +-1
+9  OVRServer_x64.exe        0x00007ff740918f98 hid_write+469272
+10 OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+11 OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+12 KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+13 ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 51856 (0xca90), stack base: 0x0000007d52200000, stack limit: 0x0000007d521e0000
+0  OVRServer_x64.exe        0x00007ff74081d2e3 +-1
+1  OVRServer_x64.exe        0x00007ff74081e104 +-1
+2  OVRServer_x64.exe        0x00007ff74081e5b5 +-1
+3  OVRServer_x64.exe        0x00007ff740821295 +-1
+4  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+5  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+6  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+7  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+8  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 35784 (0x8bc8), stack base: 0x0000007d52300000, stack limit: 0x0000007d522e0000
+0  ntdll.dll                0x00007ffd73185154 NtWaitForSingleObject+20
+1  KERNELBASE.dll           0x00007ffd6f7faadf WaitForSingleObjectEx+143
+2  OVRServer_x64.exe        0x00007ff7407fae2c +-1
+3  OVRServer_x64.exe        0x00007ff7407face5 +-1
+4  OVRServer_x64.exe        0x00007ff7408734c6 +-1
+5  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+6  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+7  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+8  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+9  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 20652 (0x50ac), stack base: 0x0000007d52400000, stack limit: 0x0000007d523ff000
+0  ntdll.dll                0x00007ffd73185c24 ZwWaitForMultipleObjects+20
+1  KERNELBASE.dll           0x00007ffd6f823b4f WaitForMultipleObjectsEx+239
+2  KERNELBASE.dll           0x00007ffd6f823a4e WaitForMultipleObjects+14
+3  OVRServer_x64.exe        0x00007ff740837278 +-1
+4  OVRServer_x64.exe        0x00007ff7408e184d hid_write+242125
+5  OVRServer_x64.exe        0x00007ff7408e1cc0 hid_write+243264
+6  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+7  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 23392 (0x5b60), stack base: 0x0000007d52500000, stack limit: 0x0000007d524f8000
+0  ntdll.dll                0x00007ffd73185c24 ZwWaitForMultipleObjects+20
+1  KERNELBASE.dll           0x00007ffd6f823b4f WaitForMultipleObjectsEx+239
+2  USER32.dll               0x00007ffd72b11ff9 MsgWaitForMultipleObjects+489
+3  USER32.dll               0x00007ffd72b11e7b MsgWaitForMultipleObjects+107
+4  OVRServer_x64.exe        0x00007ff7408943b8 +-1
+5  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+6  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+7  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+8  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+9  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 21792 (0x5520), stack base: 0x0000007d52600000, stack limit: 0x0000007d525e0000
+0  ntdll.dll                0x00007ffd73185754 ZwDelayExecution+20
+1  KERNELBASE.dll           0x00007ffd6f8238c7 SleepEx+167
+2  OVRServer_x64.exe        0x00007ff7407fa85a +-1
+3  OVRServer_x64.exe        0x00007ff740856936 +-1
+4  OVRServer_x64.exe        0x00007ff7408544d5 +-1
+5  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+6  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+7  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+8  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+9  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 37180 (0x913c), stack base: 0x0000007d52700000, stack limit: 0x0000007d526e0000
+0  ntdll.dll                0x00007ffd73185754 ZwDelayExecution+20
+1  KERNELBASE.dll           0x00007ffd6f8238c7 SleepEx+167
+2  OVRServer_x64.exe        0x00007ff7407fa85a +-1
+3  OVRServer_x64.exe        0x00007ff7408226f3 +-1
+4  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+5  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+6  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+7  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+8  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 40424 (0x9de8), stack base: 0x0000007d52800000, stack limit: 0x0000007d527e0000
+0  USER32.dll               0x00007ffd72b21f74 InvalidateRect+84
+1  USER32.dll               0x00007ffd72b12e15 GetMessageW+37
+2  OVRServer_x64.exe        0x00007ff74085ea2e +-1
+3  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+4  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+5  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+6  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+7  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 12804 (0x3204), stack base: 0x0000007d52900000, stack limit: 0x0000007d528e0000
+0  ntdll.dll                0x00007ffd73185154 NtWaitForSingleObject+20
+1  KERNELBASE.dll           0x00007ffd6f7faadf WaitForSingleObjectEx+143
+2  OVRServer_x64.exe        0x00007ff74081824c +-1
+3  OVRServer_x64.exe        0x00007ff7407fabb8 +-1
+4  OVRServer_x64.exe        0x00007ff74091cc8b hid_write+484875
+5  OVRServer_x64.exe        0x00007ff74091ce32 hid_write+485298
+6  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+7  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+Thread handle: 0x000000000000049c, id: 12812 (0x320c), stack base: 0x0000007d52a00000, stack limit: 0x0000007d529fd000
+0  ntdll.dll                0x00007ffd731887e4 ZwWaitForWorkViaWorkerFactory+20
+1  ntdll.dll                0x00007ffd7310b5e8 RtlAcquireSRWLockShared+15912
+2  KERNEL32.DLL             0x00007ffd72d88102 BaseThreadInitThunk+34
+3  ntdll.dll                0x00007ffd7313c5b4 RtlUserThreadStart+52
+
+
+Base: 0x7ff740780000 Size: 0x45d000 Name: 'OVRServer_x64.exe' Path: 'C:\Program Files (x86)\Oculus\Service\OVRServer_x64.exe'
+Base: 0x7ffd730e0000 Size: 0x1c1000 Name: 'ntdll.dll' Path: 'C:\WINDOWS\SYSTEM32\ntdll.dll'
+Base: 0x7ffd72d70000 Size: 0xad000 Name: 'KERNEL32.DLL' Path: 'C:\WINDOWS\system32\KERNEL32.DLL'
+Base: 0x7ffd6f7e0000 Size: 0x1e8000 Name: 'KERNELBASE.dll' Path: 'C:\WINDOWS\system32\KERNELBASE.dll'
+Base: 0x7ffd72af0000 Size: 0x156000 Name: 'USER32.dll' Path: 'C:\WINDOWS\system32\USER32.dll'
+Base: 0x7ffd704e0000 Size: 0x186000 Name: 'GDI32.dll' Path: 'C:\WINDOWS\system32\GDI32.dll'
+Base: 0x7ffd72a40000 Size: 0xa7000 Name: 'ADVAPI32.dll' Path: 'C:\WINDOWS\system32\ADVAPI32.dll'
+Base: 0x7ffd70e80000 Size: 0x9d000 Name: 'msvcrt.dll' Path: 'C:\WINDOWS\system32\msvcrt.dll'
+Base: 0x7ffd72e20000 Size: 0x5b000 Name: 'sechost.dll' Path: 'C:\WINDOWS\system32\sechost.dll'
+Base: 0x7ffd72880000 Size: 0x11c000 Name: 'RPCRT4.dll' Path: 'C:\WINDOWS\system32\RPCRT4.dll'
+Base: 0x7ffd711c0000 Size: 0x155c000 Name: 'SHELL32.dll' Path: 'C:\WINDOWS\system32\SHELL32.dll'
+Base: 0x7ffd6f790000 Size: 0x43000 Name: 'cfgmgr32.dll' Path: 'C:\WINDOWS\system32\cfgmgr32.dll'
+Base: 0x7ffd6fc10000 Size: 0x645000 Name: 'windows.storage.dll' Path: 'C:\WINDOWS\system32\windows.storage.dll'
+Base: 0x7ffd70f40000 Size: 0x27d000 Name: 'combase.dll' Path: 'C:\WINDOWS\system32\combase.dll'
+Base: 0x7ffd6fab0000 Size: 0x6a000 Name: 'bcryptPrimitives.dll' Path: 'C:\WINDOWS\system32\bcryptPrimitives.dll'
+Base: 0x7ffd72c50000 Size: 0x52000 Name: 'shlwapi.dll' Path: 'C:\WINDOWS\system32\shlwapi.dll'
+Base: 0x7ffd6f780000 Size: 0xf000 Name: 'kernel.appcore.dll' Path: 'C:\WINDOWS\system32\kernel.appcore.dll'
+Base: 0x7ffd6f9f0000 Size: 0xb5000 Name: 'shcore.dll' Path: 'C:\WINDOWS\system32\shcore.dll'
+Base: 0x7ffd6f700000 Size: 0x4b000 Name: 'powrprof.dll' Path: 'C:\WINDOWS\system32\powrprof.dll'
+Base: 0x7ffd6f750000 Size: 0x14000 Name: 'profapi.dll' Path: 'C:\WINDOWS\system32\profapi.dll'
+Base: 0x7ffd72f90000 Size: 0x143000 Name: 'ole32.dll' Path: 'C:\WINDOWS\system32\ole32.dll'
+Base: 0x7ffd70670000 Size: 0xc1000 Name: 'OLEAUT32.dll' Path: 'C:\WINDOWS\system32\OLEAUT32.dll'
+Base: 0x7ffd70830000 Size: 0x429000 Name: 'SETUPAPI.dll' Path: 'C:\WINDOWS\system32\SETUPAPI.dll'
+Base: 0x7ffd70c60000 Size: 0x6b000 Name: 'WS2_32.dll' Path: 'C:\WINDOWS\system32\WS2_32.dll'
+Base: 0x7ffd6bb90000 Size: 0xa3000 Name: 'dxgi.dll' Path: 'C:\WINDOWS\SYSTEM32\dxgi.dll'
+Base: 0x7ffd69ba0000 Size: 0xa000 Name: 'VERSION.dll' Path: 'C:\WINDOWS\SYSTEM32\VERSION.dll'
+Base: 0x7ffd6c750000 Size: 0x38000 Name: 'IPHLPAPI.DLL' Path: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL'
+Base: 0x7ffd6db20000 Size: 0x23000 Name: 'WINMM.dll' Path: 'C:\WINDOWS\SYSTEM32\WINMM.dll'
+Base: 0x7ffd57ec0000 Size: 0x18c000 Name: 'dbghelp.dll' Path: 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+Base: 0x7ffd6c7b0000 Size: 0x13000 Name: 'WTSAPI32.dll' Path: 'C:\WINDOWS\SYSTEM32\WTSAPI32.dll'
+Base: 0x7ffd6bf30000 Size: 0x2a8000 Name: 'd3d11.dll' Path: 'C:\WINDOWS\SYSTEM32\d3d11.dll'
+Base: 0x7ffd6e3b0000 Size: 0xc000 Name: 'HID.DLL' Path: 'C:\WINDOWS\SYSTEM32\HID.DLL'
+Base: 0x7ffd6d720000 Size: 0x2c000 Name: 'WINMMBASE.dll' Path: 'C:\WINDOWS\SYSTEM32\WINMMBASE.dll'
+Base: 0x7ffd72a00000 Size: 0x3b000 Name: 'IMM32.DLL' Path: 'C:\WINDOWS\system32\IMM32.DLL'
+Base: 0x7ffd6f5d0000 Size: 0x56000 Name: 'WINSTA.dll' Path: 'C:\WINDOWS\SYSTEM32\WINSTA.dll'
+Base: 0x7ffd66e10000 Size: 0x3b4000 Name: 'nvapi64.dll' Path: 'C:\WINDOWS\SYSTEM32\nvapi64.dll'
+Base: 0x7ffd6f120000 Size: 0x27000 Name: 'DEVOBJ.dll' Path: 'C:\WINDOWS\SYSTEM32\DEVOBJ.dll'
+Base: 0x7ffd6fb20000 Size: 0x55000 Name: 'WINTRUST.dll' Path: 'C:\WINDOWS\system32\WINTRUST.dll'
+Base: 0x7ffd6f770000 Size: 0x10000 Name: 'MSASN1.dll' Path: 'C:\WINDOWS\system32\MSASN1.dll'
+Base: 0x7ffd70260000 Size: 0x1c7000 Name: 'CRYPT32.dll' Path: 'C:\WINDOWS\system32\CRYPT32.dll'
+Base: 0x7ffd6df20000 Size: 0x96000 Name: 'uxtheme.dll' Path: 'C:\WINDOWS\system32\uxtheme.dll'
+Base: 0x7ffd70820000 Size: 0x8000 Name: 'NSI.dll' Path: 'C:\WINDOWS\system32\NSI.dll'
+Base: 0x7ffd63460000 Size: 0x1a000 Name: 'dhcpcsvc.DLL' Path: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL'
+Base: 0x7ffd6d160000 Size: 0x7000 Name: 'Xinput9_1_0.dll' Path: 'C:\WINDOWS\SYSTEM32\Xinput9_1_0.dll'
+Base: 0x7ffd6c720000 Size: 0x22000 Name: 'dwmapi.dll' Path: 'C:\WINDOWS\system32\dwmapi.dll'
+Base: 0x7ffd6d150000 Size: 0xe000 Name: 'XInput1_4.dll' Path: 'C:\WINDOWS\SYSTEM32\XInput1_4.dll'
+Base: 0x7ffd72720000 Size: 0x15a000 Name: 'MSCTF.dll' Path: 'C:\WINDOWS\system32\MSCTF.dll'
+
+---END OF DEADLOCK STATE---
+[2016.03.23-18.51.59:137][818]OCULUS: Info: 03/23/16 18:51:59: [From Service] 03/23/16 18:51:59: [AppFocusObserver] Reacting to power management event (WM_POWERBROADCAST/PBT_APMRESUMEAUTOMATIC).
+
+[2016.03.23-18.52.19:884][872]LogRenderer: Reallocating scene render targets to support 1308x724 (Frame:5036).
+[2016.03.23-18.52.32:520][910]OCULUS: Info: 03/23/16 18:52:32: [From Service] 03/23/16 18:52:32: [AppFocusObserver] Reacting to session change notification (WM_WTSSESSION_CHANGE/WTS_SESSION_UNLOCK).
+
+[2016.03.23-18.56.58:076][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.56.58:076][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-18.56.58:076][792]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 12:56:58 PM)
+[2016.03.23-18.56.58:076][792]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-18.56.58:098][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021993s)
+[2016.03.23-18.56.58:099][792]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-18.56.58:100][792]LogPlayLevel: PIE: World Init took: (0.001638s)
+[2016.03.23-18.56.58:100][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.023888s)
+[2016.03.23-18.56.58:100][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-18.56.58:100][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.23-18.56.58:100][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.03.23-18.56.58:100][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2016.03.23-18.56.58:138][792]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-18.56.58:189][792]LogInit: FAudioDevice initialized.
+[2016.03.23-18.56.58:225][792]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-18.56.58:228][792]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 0) at 2016.03.23-15.56.58
+[2016.03.23-18.56.58:228][792]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.56.58:229][792]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-18.56.58:229][792]LogWorld: Bringing up level for play took: 0.003024
+[2016.03.23-18.56.58:239][792]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida -0.131
+[2016.03.23-18.56.58:239][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.58.36:698][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.58.36:771][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-18.58.36:800][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015924F9D6C0
+[2016.03.23-18.58.52:896][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.23-18.58.52:896][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2016.03.23-18.58.52:896][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
+[2016.03.23-19.00.49:617][ 93]BlueprintLog: New page: Compile BP_Track
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaBegin' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'FloorEnd' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Death' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaEnd' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown1' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown2' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown3' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown4' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown5' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown6' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:716][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Blocker' in BlueprintGeneratedClass 'REINST_BP_Jump_C_319' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaBegin' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'FloorEnd' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Death' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaEnd' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown1' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:805][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Block' in BlueprintGeneratedClass 'REINST_BP_JumpLeft_C_323' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaBegin' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'FloorEnd' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Death[' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'RampaEnd' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'ArrowDown1' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:849][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Blocker' in BlueprintGeneratedClass 'REINST_BP_JumpRight_C_327' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:895][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft15_C_331' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.49:950][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft30_C_335' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:007][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveLeft60_C_339' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:062][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight15_C_343' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:116][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight30_C_347' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'WallEndL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveR' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurveL' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Curva' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:181][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'CurvaCollision' in BlueprintGeneratedClass 'REINST_BP_TrackCurveRight60_C_351' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'BlockerArea' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn1' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn2' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn3' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn4' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn5' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:260][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'PedraSpawn6' in BlueprintGeneratedClass 'REINST_BP_TrackSpawn_C_355' (it may have been removed)
+[2016.03.23-19.00.50:333][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'StaticMesh_0' in BlueprintGeneratedClass 'REINST_BP_TrackStart_C_359' (it may have been removed)
+[2016.03.23-19.00.50:333][ 93]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'DefaultSceneRoot' for 'Cube' in BlueprintGeneratedClass 'REINST_BP_TrackStart_C_359' (it may have been removed)
+[2016.03.23-19.00.51:332][ 93]BlueprintEditorCompileResults: Info [1453.46] Compile of BP_Track successful! [in 1,713 ms]
+[2016.03.23-19.00.54:209][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.00.54:209][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-19.00.54:209][221]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 1:00:54 PM)
+[2016.03.23-19.00.54:209][221]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-19.00.54:235][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025876s)
+[2016.03.23-19.00.54:236][221]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-19.00.54:236][221]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2016.03.23-19.00.54:236][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.027069s)
+[2016.03.23-19.00.54:283][221]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-19.00.54:297][221]LogInit: FAudioDevice initialized.
+[2016.03.23-19.00.54:332][221]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-19.00.54:335][221]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-16.00.54
+[2016.03.23-19.00.54:335][221]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.00.54:336][221]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.00.54:336][221]LogWorld: Bringing up level for play took: 0.002579
+[2016.03.23-19.00.54:348][221]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida -0.022
+[2016.03.23-19.00.54:348][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.05.48:677][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.05.48:732][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.05.48:771][952]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001595B727CE0
+[2016.03.23-19.06.13:434][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.06.13:434][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-19.06.13:434][975]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 1:06:13 PM)
+[2016.03.23-19.06.13:435][975]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-19.06.13:466][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030985s)
+[2016.03.23-19.06.13:467][975]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-19.06.13:467][975]LogPlayLevel: PIE: World Init took: (0.001639s)
+[2016.03.23-19.06.13:468][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.033028s)
+[2016.03.23-19.06.13:523][975]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-19.06.13:541][975]LogInit: FAudioDevice initialized.
+[2016.03.23-19.06.13:576][975]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-19.06.13:580][975]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-16.06.13
+[2016.03.23-19.06.13:580][975]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.06.13:580][975]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.06.13:581][975]LogWorld: Bringing up level for play took: 0.003027
+[2016.03.23-19.06.13:594][975]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida -0.776
+[2016.03.23-19.06.13:594][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.06.41:155][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.06.41:206][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.06.41:266][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015935BE8EA0
+[2016.03.23-19.06.49:051][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.06.49:051][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-19.06.49:051][398]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 1:06:49 PM)
+[2016.03.23-19.06.49:051][398]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-19.06.49:072][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020556s)
+[2016.03.23-19.06.49:073][398]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-19.06.49:073][398]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2016.03.23-19.06.49:073][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.021727s)
+[2016.03.23-19.06.49:121][398]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-19.06.49:135][398]LogInit: FAudioDevice initialized.
+[2016.03.23-19.06.49:165][398]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-19.06.49:169][398]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-16.06.49
+[2016.03.23-19.06.49:169][398]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.06.49:169][398]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.06.49:169][398]LogWorld: Bringing up level for play took: 0.002790
+[2016.03.23-19.06.49:181][398]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida 0.812
+[2016.03.23-19.06.49:181][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.08.04:414][290]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.08.04:469][290]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.08.04:503][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015939CB68E0
+[2016.03.23-19.08.12:926][635]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.08.12:926][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-19.08.12:926][635]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 1:08:12 PM)
+[2016.03.23-19.08.12:926][635]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-19.08.12:947][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020751s)
+[2016.03.23-19.08.12:948][635]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-19.08.12:948][635]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2016.03.23-19.08.12:948][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.021829s)
+[2016.03.23-19.08.12:988][635]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-19.08.13:002][635]LogInit: FAudioDevice initialized.
+[2016.03.23-19.08.13:038][635]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-19.08.13:042][635]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-16.08.13
+[2016.03.23-19.08.13:042][635]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.08.13:042][635]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.08.13:042][635]LogWorld: Bringing up level for play took: 0.002844
+[2016.03.23-19.08.13:053][635]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida 0.684
+[2016.03.23-19.08.13:053][635]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.40:233][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.40:285][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.40:337][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001598F1F5A80
+[2016.03.23-19.09.48:745][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.48:745][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-19.09.48:745][547]PIE: New page: PIE session: MapaCorrida (Mar 23, 2016, 1:09:48 PM)
+[2016.03.23-19.09.48:745][547]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida
+[2016.03.23-19.09.48:769][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024123s)
+[2016.03.23-19.09.48:770][547]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.23-19.09.48:770][547]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2016.03.23-19.09.48:770][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida to /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida (0.025249s)
+[2016.03.23-19.09.48:813][547]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-19.09.48:828][547]LogInit: FAudioDevice initialized.
+[2016.03.23-19.09.48:860][547]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.23-19.09.48:863][547]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.23-16.09.48
+[2016.03.23-19.09.48:863][547]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.09.48:863][547]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-19.09.48:864][547]LogWorld: Bringing up level for play took: 0.002689
+[2016.03.23-19.09.48:875][547]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida 0.505
+[2016.03.23-19.09.48:875][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.59:659][968]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.59:730][968]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida' with GeneratedClass '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MapaCorrida.MapaCorrida:PersistentLevel.MapaCorrida'
+[2016.03.23-19.09.59:775][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015924BB3420
+[2016.03.23-19.10.19:820][752]LogSavePackage: Save=272.543823ms
+[2016.03.23-19.10.19:820][752]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RunCharacterFB791C824BF5C18A77CFE9B2C2DC7FDA.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2016.03.23-19.10.19:824][752]LogSavePackage: Total save time: 881.173443ms
+[2016.03.23-19.10.19:824][752]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2016.03.23-19.10.56:856][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Track/BP_Track" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_Track.uasset" SILENT=true
+[2016.03.23-19.10.56:927][ 25]LogSavePackage: Save=49.091934ms
+[2016.03.23-19.10.56:927][ 25]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/BP_Track525F397A4DBB26386D4C83910A1010BE.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_Track.uasset'
+[2016.03.23-19.10.56:930][ 25]LogSavePackage: Total save time: 73.409427ms
+[2016.03.23-19.10.56:930][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_Track.uasset
+[2016.03.23-19.12.04:332][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowUP:0027
+[2016.03.23-19.12.04:332][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowUP:0046
+[2016.03.23-19.12.04:333][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowUP:0027
+[2016.03.23-19.12.04:333][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowUP:0046
+[2016.03.23-19.12.04:335][481]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.23-19.12.04:363][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnGear:0027
+[2016.03.23-19.12.04:363][481]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_0
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnGear:0046
+[2016.03.23-19.12.07:254][644]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_3332
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowDown:0027
+[2016.03.23-19.12.07:254][644]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_3332
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowDown:0046
+[2016.03.23-19.12.07:255][644]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_3332
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn2_C:SpawnArrowUP:0027
+[2016.03.23-19.12.07:255][644]LogScript:Warning: Accessed None 'BlockerArea'
+	BP_TrackSpawn2_C /Engine/Transient.World_7:PersistentLevel.BP_TrackSpawn2_C_3332
+	Function /Game/Track/BP_TrackSpawn2.BP_TrackSpawn

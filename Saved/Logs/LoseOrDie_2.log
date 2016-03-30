@@ -1,85 +1,1069 @@
-﻿[2016.03.30-16.52.59:356][  0]Log file open, 03/30/16 13:52:59
-[2016.03.30-16.52.59:356][  0]LogInit:Display: Running engine for game: LoseOrDie
-[2016.03.30-16.52.59:356][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.30-16.52.59:356][  0]LogInit:Display: RandInit(-813117735) SRandInit(-813117734).
-[2016.03.30-16.52.59:356][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.30-16.52.59:356][  0]LogStats: Stats thread started at 0.083269
-[2016.03.30-16.52.59:356][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.30-16.52.59:356][  0]LogInit: API Version: 2758231
-[2016.03.30-16.52.59:356][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.30-16.52.59:356][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.30-16.52.59:356][  0]LogInit: Build Configuration: Development
-[2016.03.30-16.52.59:356][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.30-16.52.59:356][  0]LogInit: Command line:  
-[2016.03.30-16.52.59:356][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.30-16.52.59:356][  0]LogInit: Rocket: 1
-[2016.03.30-16.52.59:368][  0]LogInit: Using libcurl 7.41.0
-[2016.03.30-16.52.59:368][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.30-16.52.59:368][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.30-16.52.59:368][  0]LogInit:  - other features:
-[2016.03.30-16.52.59:368][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.30-16.52.59:368][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.30-16.52.59:368][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.30-16.52.59:368][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.30-16.52.59:368][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.30-16.52.59:368][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.30-16.52.59:368][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.30-16.52.59:368][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.30-16.52.59:368][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.30-16.52.59:368][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.30-16.52.59:387][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/' was not found.
-[2016.03.30-16.52.59:406][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.30-16.52.59:413][  0]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-16.52.59:417][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.30-16.52.59:423][  0]LogInit: Object subsystem initialized
-[2016.03.30-16.52.59:423][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.30-16.52.59:423][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.30-16.52.59:431][  0]LogInit: Computer: HP
-[2016.03.30-16.52.59:431][  0]LogInit: User: SAA
-[2016.03.30-16.52.59:431][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.30-16.52.59:431][  0]LogInit: High frequency timer resolution =2.435781 MHz
-[2016.03.30-16.52.59:431][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.03.30-16.52.59:431][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.30-16.52.59:431][  0]LogMemory: Process Physical Memory: 57.43 MB used, 57.43 MB peak
-[2016.03.30-16.52.59:431][  0]LogMemory: Process Virtual Memory: 57.00 MB used, 57.00 MB peak
-[2016.03.30-16.52.59:431][  0]LogMemory: Physical Memory: 5653.14 MB used, 16316.02 MB total
-[2016.03.30-16.52.59:431][  0]LogMemory: Virtual Memory: 370.55 MB used, 134217728.00 MB total
-[2016.03.30-16.52.59:476][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
-[2016.03.30-16.52.59:853][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
-[2016.03.30-16.52.59:853][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
-[2016.03.30-16.52.59:858][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2016.03.30-16.52.59:858][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.30-16.52.59:860][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.30-16.52.59:860][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.30-16.52.59:861][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.30-16.52.59:868][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.30-16.52.59:868][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.30-16.52.59:884][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.30-16.52.59:901][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/21584/).
-[2016.03.30-16.52.59:901][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/1234D78A483F1121B48F15A03152778F/'.
-[2016.03.30-16.52.59:901][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.30-16.53.02:340][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.30-16.53.02:347][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.30-16.53.02:353][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.30-16.53.02:359][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.30-16.53.02:365][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.30-16.53.02:369][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.30-16.53.02:372][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.30-16.53.02:376][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.30-16.53.02:380][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.30-16.53.02:384][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.30-16.53.02:387][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.30-16.53.02:395][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.30-16.53.02:395][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.30-16.53.02:396][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.30-16.53.02:414][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.30-16.53.02:418][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.30-16.53.02:421][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.30-16.53.02:424][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.30-16.53.02:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-16.53.02:548][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.30-16.53.02:591][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.30-16.53.02:591][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.30-16.53.02:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.30-16.53.02:591][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.30-16.53.02:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrD
+﻿[2016.03.30-19.16.53:626][  0]Log file open, 03/30/16 16:16:53
+[2016.03.30-19.16.53:626][  0]LogInit:Display: Running engine for game: LoseOrDie
+[2016.03.30-19.16.53:626][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.30-19.16.53:626][  0]LogInit:Display: RandInit(-1256683149) SRandInit(-1256683149).
+[2016.03.30-19.16.53:626][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.30-19.16.53:626][  0]LogStats: Stats thread started at 0.083151
+[2016.03.30-19.16.53:626][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.30-19.16.53:626][  0]LogInit: API Version: 2758231
+[2016.03.30-19.16.53:626][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.30-19.16.53:626][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.30-19.16.53:626][  0]LogInit: Build Configuration: Development
+[2016.03.30-19.16.53:626][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.30-19.16.53:626][  0]LogInit: Command line:  
+[2016.03.30-19.16.53:626][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.30-19.16.53:626][  0]LogInit: Rocket: 1
+[2016.03.30-19.16.53:638][  0]LogInit: Using libcurl 7.41.0
+[2016.03.30-19.16.53:638][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.30-19.16.53:638][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.30-19.16.53:638][  0]LogInit:  - other features:
+[2016.03.30-19.16.53:638][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.30-19.16.53:638][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.30-19.16.53:638][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.30-19.16.53:638][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.30-19.16.53:638][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.30-19.16.53:638][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.30-19.16.53:638][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.30-19.16.53:638][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.30-19.16.53:638][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.30-19.16.53:638][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.30-19.16.53:657][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/' was not found.
+[2016.03.30-19.16.53:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.30-19.16.53:684][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.16.53:688][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.30-19.16.53:694][  0]LogInit: Object subsystem initialized
+[2016.03.30-19.16.53:694][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-19.16.53:694][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.30-19.16.53:702][  0]LogInit: Computer: HP
+[2016.03.30-19.16.53:702][  0]LogInit: User: SAA
+[2016.03.30-19.16.53:702][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.30-19.16.53:702][  0]LogInit: High frequency timer resolution =2.435781 MHz
+[2016.03.30-19.16.53:702][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.30-19.16.53:702][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.16.53:702][  0]LogMemory: Process Physical Memory: 57.61 MB used, 57.61 MB peak
+[2016.03.30-19.16.53:702][  0]LogMemory: Process Virtual Memory: 58.99 MB used, 58.99 MB peak
+[2016.03.30-19.16.53:702][  0]LogMemory: Physical Memory: 11898.47 MB used, 16316.02 MB total
+[2016.03.30-19.16.53:702][  0]LogMemory: Virtual Memory: 386.91 MB used, 134217728.00 MB total
+[2016.03.30-19.16.53:751][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.03.30-19.16.54:232][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
+[2016.03.30-19.16.54:232][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
+[2016.03.30-19.16.54:239][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.30-19.16.54:239][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.30-19.16.54:241][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.30-19.16.54:241][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.30-19.16.54:241][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.30-19.16.54:248][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.30-19.16.54:248][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.30-19.16.54:266][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.30-19.16.54:282][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/23280/).
+[2016.03.30-19.16.54:282][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/4029F939467527BD1554888066609FF8/'.
+[2016.03.30-19.16.54:282][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.30-19.16.56:487][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.30-19.16.56:493][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.30-19.16.56:499][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.30-19.16.56:505][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.30-19.16.56:511][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.30-19.16.56:514][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.30-19.16.56:517][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.30-19.16.56:521][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.30-19.16.56:525][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.30-19.16.56:528][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.30-19.16.56:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.30-19.16.56:539][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.30-19.16.56:539][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.30-19.16.56:540][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.30-19.16.56:559][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.30-19.16.56:562][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.30-19.16.56:565][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.30-19.16.56:569][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.30-19.16.56:569][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.30-19.16.56:687][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.30-19.16.56:729][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.30-19.16.56:786][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.30-19.16.56:797][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.30-19.16.56:995][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.30-19.16.56:997][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.30-19.16.57:123][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.30-19.16.57:123][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.30-19.16.58:344][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.30-19.16.58:451][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.03.30-19.16.58:643][  0]SourceControl: Info Source control is disabled
+[2016.03.30-19.17.01:342][  0]SourceControl: Info Source control is disabled
+[2016.03.30-19.17.01:359][  0]SourceControl: Info Source control is disabled
+[2016.03.30-19.17.01:376][  0]SourceControl: Info Source control is disabled
+[2016.03.30-19.17.01:717][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.30-19.17.01:717][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.30-19.17.01:772][  0]LogEngine: Initializing Engine...
+[2016.03.30-19.17.01:774][  0]OCULUS: Info: 03/30/16 19:17:01: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.03.30-19.17.01:775][  0]OCULUS: Info: 03/30/16 19:17:01: [IPC] Call Stats for SetInitialState : x1: C2S=22.1695, S2C=4.10546, Runtime=52.1393 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.03.30-19.17.01:775][  0]OCULUS: Info: 03/30/16 19:17:01: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=23.8117, S2C=2.87382, Runtime=1.23164 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.03.30-19.17.01:791][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.30-19.17.01:904][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.30-19.17.01:911][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.17.01:928][  0]LogInit: FAudioDevice initialized.
+[2016.03.30-19.17.01:947][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.30-19.17.01:950][  0]LogInit: Texture streaming: Enabled
+[2016.03.30-19.17.01:958][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.30-19.17.01:958][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.30-19.17.01:958][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6e58a904b162431bdc4319006156b95|d87a143c86174d7ea2ead77b8ac6e0d8|a54faa0c-de25-4ef6-94d5-27208093865c
+[2016.03.30-19.17.01:958][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.30-19.17.01:970][  0]LogInit: Transaction tracking system initialized
+[2016.03.30-19.17.02:015][  0]BlueprintLog: New page: Editor Load
+[2016.03.30-19.17.02:140][  0]LocalizationService: Info Localization service is disabled
+[2016.03.30-19.17.02:236][  0]LogConsoleResponse:Display: 
+[2016.03.30-19.17.02:341][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.30-19.17.02:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.01s
+[2016.03.30-19.17.02:427][  0]SourceControl: Info Source control is disabled
+[2016.03.30-19.17.02:427][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.30-19.17.02:428][  0]LightingResults: New page: Lighting Build
+[2016.03.30-19.17.02:433][  0]MapCheck: New page: Map Check
+[2016.03.30-19.17.02:433][  0]LightingResults: New page: Lighting Build
+[2016.03.30-19.17.02:443][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE091D36A0
+[2016.03.30-19.17.02:835][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.17.02:838][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.30-19.17.02:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.30-19.17.02:918][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 79.514ms to complete.
+[2016.03.30-19.17.02:918][  0]LogFileHelpers: Loading map 'MainMenu' took 0.491
+[2016.03.30-19.17.03:016][  0]LogCollectionManager: Loaded 0 collections in 0.002988 seconds
+[2016.03.30-19.17.03:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Collections/' took 0.01s
+[2016.03.30-19.17.03:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Developers/SAA/Collections/' took 0.01s
+[2016.03.30-19.17.03:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Collections/' took 0.01s
+[2016.03.30-19.17.03:057][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.30-19.17.03:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1893 classes and 338 folders.
+[2016.03.30-19.17.03:072][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.30-19.17.03:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.30-19.17.03:142][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.03.30-19.17.03:188][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.30-19.17.03:192][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.30-19.17.03:214][  0]LogLoad: Full Startup: 10.01 seconds (BP compile: 0.11 seconds)
+[2016.03.30-19.17.03:231][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-19.17.03:231][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-19.17.03:232][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.30-19.17.03:299][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.30-19.17.03:439][  0]LogRenderer: Reallocating scene render targets to support 1308x540 (Frame:2).
+[2016.03.30-19.17.03:491][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.25s
+[2016.03.30-19.17.03:552][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.30-19.17.03:671][  4]LogAssetRegistry: Asset discovery search completed in 5.2309 seconds
+[2016.03.30-19.17.03:671][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2016.03.30-19.17.25:918][897]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.30-19.17.26:305][897]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.03.30-19.17.26:678][897]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.26:678][897]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.26:679][897]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.26:679][897]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.26:679][897]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.31:379][167]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.31:379][167]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.31:379][167]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.31:379][167]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.31:379][167]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_0
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.31:484][173]LogRenderer: Reallocating scene render targets to support 1308x692 (Frame:845).
+[2016.03.30-19.17.36:966][489]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.36:966][489]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_22
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.36:966][489]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_22
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.36:966][489]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_22
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.36:966][489]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_22
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.37:522][520]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.37:522][520]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_23
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.37:522][520]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_23
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.37:522][520]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_23
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.37:522][520]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_23
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.42:308][781]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.42:308][781]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_24
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.42:308][781]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_24
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.42:308][781]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_24
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.42:308][781]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_24
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.43:221][835]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.17.43:221][835]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.17.43:221][835]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.17.43:221][835]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.17.43:221][835]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.17.44:816][912]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.17.44:817][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.17.44:817][912]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:17:44 PM)
+[2016.03.30-19.17.44:817][912]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.17.44:822][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004646s)
+[2016.03.30-19.17.44:822][912]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.17.44:822][912]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2016.03.30-19.17.44:822][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005554s)
+[2016.03.30-19.17.44:925][912]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.17.44:939][912]LogInit: FAudioDevice initialized.
+[2016.03.30-19.17.44:989][912]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.17.44:992][912]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.17.44
+[2016.03.30-19.17.44:992][912]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.17.44:992][912]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.17.44:993][912]LogWorld: Bringing up level for play took: 0.002193
+[2016.03.30-19.17.45:004][912]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.17.45:005][912]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.17.45:005][912]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.17.45:007][912]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.066
+[2016.03.30-19.17.45:007][912]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.17.46:198][960]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve MapaCorrida.umap.
+[2016.03.30-19.17.46:308][960]LogPackageName: SearchForPackageOnDisk took   0.109s to resolve MapaCorrida.umap.
+[2016.03.30-19.17.46:308][960]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.17.46:308][960]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.17.46:340][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE1B4ED580
+[2016.03.30-19.17.46:344][960]Cmd: MEM
+[2016.03.30-19.17.46:442][960]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.17.46:442][960]LogMemory: Process Physical Memory: 829.74 MB used, 829.86 MB peak
+[2016.03.30-19.17.46:442][960]LogMemory: Process Virtual Memory: 1491.28 MB used, 1526.76 MB peak
+[2016.03.30-19.17.46:442][960]LogMemory: Physical Memory: 12613.85 MB used, 16316.02 MB total
+[2016.03.30-19.17.46:442][960]LogMemory: Virtual Memory: 2263.57 MB used, 134217728.00 MB total
+[2016.03.30-19.17.46:442][960]LogMemory: 
+[2016.03.30-19.17.46:442][960]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.17.46:709][960]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.17.46:709][960]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.17.46:710][960]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.17.46:710][960]LogInit: WinSock: I am HP (192.168.0.11:0)
+[2016.03.30-19.17.46:710][960]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.03.30-19.17.46:714][960]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.17.46
+[2016.03.30-19.17.46:714][960]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.17.46:714][960]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.17.46:714][960]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.17.46:714][960]LogWorld: Bringing up level for play took: 0.003598
+[2016.03.30-19.17.46:715][960]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.17.46:715][960]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.18.03:034][649]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.18.03:034][649]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_26
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.18.03:034][649]PIE:Error: Error Accessed None 'CallFunc_FinishSpawningActor_ReturnValue' from node Set Quantidade x in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.03:034][649]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_26
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.18.03:034][649]PIE:Error: Error Attempt to assign variable through None from node Set Quantidade x in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.03:034][649]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_26
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.18.03:034][649]PIE:Error: Error Accessed None 'CallFunc_FinishSpawningActor_ReturnValue' from node Set Quantidade y in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.03:034][649]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_26
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.18.03:034][649]PIE:Error: Error Attempt to assign variable through None from node Set Quantidade y in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.22:374][472]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.18.22:374][472]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_27
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.18.22:375][472]PIE:Error: Error Accessed None 'CallFunc_FinishSpawningActor_ReturnValue' from node Set Quantidade x in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.22:375][472]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_27
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.18.22:375][472]PIE:Error: Error Attempt to assign variable through None from node Set Quantidade x in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.22:375][472]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_27
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.18.22:375][472]PIE:Error: Error Accessed None 'CallFunc_FinishSpawningActor_ReturnValue' from node Set Quantidade y in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.22:375][472]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.BP_JumpRight_C_27
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.18.22:375][472]PIE:Error: Error Attempt to assign variable through None from node Set Quantidade y in graph 'SpawnSpike' in blueprint BP_JumpRight
+[2016.03.30-19.18.49:520][586]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.18.49:520][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.18.49:572][586]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.18.49:573][586]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.18.49:573][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.18.49:603][586]LogExit: GameNetDriver None shut down
+[2016.03.30-19.18.49:605][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE46285080
+[2016.03.30-19.18.49:667][587]LogPlayLevel:Display: Destroying online subsystem :Context_5
+[2016.03.30-19.18.49:667][587]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Accessed None 'Spike'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0027
+[2016.03.30-19.19.10:719][317]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Accessed None 'Spike'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:00A4
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.19.10:719][317]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Accessed None 'Spike'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0027
+[2016.03.30-19.19.10:750][317]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Accessed None 'Spike'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:00A4
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:010C
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0121
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Accessed None 'CallFunc_FinishSpawningActor_ReturnValue'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:013B
+[2016.03.30-19.19.10:750][317]LogScript:Warning: Attempt to assign variable through None
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0150
+[2016.03.30-19.19.15:644][604]LogScript:Warning: Accessed None 'Spike'
+	BP_JumpRight_C /Engine/Transient.World_3:PersistentLevel.BP_JumpRight_C_25
+	Function /Game/Track/BP_JumpRight.BP_JumpRight_C:SpawnSpike:0027
+[2016.03.30-19.19.15:644][604]LogSpawn:Warning: SpawnActor failed because we are running a ConstructionScript (Espinhos_BP_C)
+[2016.03.30-19.19.19:275][820]BlueprintLog: New page: Compile BP_JumpRight
+[2016.03.30-19.19.19:285][820]LogBlueprint:Error: [compiler BP_JumpRight] Error Could not find a function named "SpawnSpike" in 'BP_JumpRight_C'.
+Make sure 'BP_JumpRight_C' has been compiled for  Spawn Spike 
+[2016.03.30-19.19.19:411][820]LogBlueprint:Warning: [compiler BP_JumpRight] Warning [0146.21] Compile of BP_JumpRight failed. 1 Fatal Issue(s) 0 Warning(s) [in 136 ms]
+[2016.03.30-19.19.19:411][820]BlueprintEditorCompileResults:Error: Error Could not find a function named "SpawnSpike" in 'BP_JumpRight_C'.
+Make sure 'BP_JumpRight_C' has been compiled for  Spawn Spike 
+[2016.03.30-19.19.19:411][820]BlueprintEditorCompileResults:Warning: Warning [0146.21] Compile of BP_JumpRight failed. 1 Fatal Issue(s) 0 Warning(s) [in 136 ms]
+[2016.03.30-19.19.27:192][285]BlueprintLog: New page: Compile BP_JumpRight
+[2016.03.30-19.19.27:291][285]BlueprintEditorCompileResults: Info [0154.09] Compile of BP_JumpRight successful! [in 98 ms]
+[2016.03.30-19.19.29:678][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Track/BP_JumpRight" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_JumpRight.uasset" SILENT=true
+[2016.03.30-19.19.29:741][384]LogSavePackage: Save=35.195282ms
+[2016.03.30-19.19.29:741][384]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/BP_JumpRight7A48E700400F4A848E5ECDA5D0434F68.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_JumpRight.uasset'
+[2016.03.30-19.19.29:743][384]LogSavePackage: Total save time: 63.867807ms
+[2016.03.30-19.19.29:743][384]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Track/BP_JumpRight.uasset
+[2016.03.30-19.19.50:003][231]BlueprintLog: New page: Compile Lose_Widget
+[2016.03.30-19.19.50:107][231]BlueprintEditorCompileResults: Info [0176.91] Compile of Lose_Widget successful! [in 103 ms]
+[2016.03.30-19.20.01:798][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Hud/Lose_Widget" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset" SILENT=true
+[2016.03.30-19.20.01:835][928]LogSavePackage: Save=13.078351ms
+[2016.03.30-19.20.01:835][928]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Lose_Widget2DCBA632405563801E2A0ABBA2383E98.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset'
+[2016.03.30-19.20.01:838][928]LogSavePackage: Total save time: 39.096702ms
+[2016.03.30-19.20.01:839][928]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset
+[2016.03.30-19.29.19:125][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.29.19:125][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.29.19:126][249]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:29:19 PM)
+[2016.03.30-19.29.19:126][249]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.29.19:133][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006974s)
+[2016.03.30-19.29.19:136][249]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.29.19:137][249]LogPlayLevel: PIE: World Init took: (0.003773s)
+[2016.03.30-19.29.19:137][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.011161s)
+[2016.03.30-19.29.19:179][249]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.29.19:193][249]LogInit: FAudioDevice initialized.
+[2016.03.30-19.29.19:222][249]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.29.19:225][249]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.29.19
+[2016.03.30-19.29.19:226][249]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.29.19:226][249]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.29.19:226][249]LogWorld: Bringing up level for play took: 0.002347
+[2016.03.30-19.29.19:237][249]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.29.19:238][249]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.29.19:238][249]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.29.19:240][249]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.299
+[2016.03.30-19.29.19:240][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.29.56:058][ 33]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve MapaCorrida.umap.
+[2016.03.30-19.29.56:156][ 33]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve MapaCorrida.umap.
+[2016.03.30-19.29.56:156][ 33]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.29.56:156][ 33]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.29.56:189][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE782E8400
+[2016.03.30-19.29.56:189][ 33]Cmd: MEM
+[2016.03.30-19.29.56:218][ 33]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.29.56:218][ 33]LogMemory: Process Physical Memory: 1055.29 MB used, 1066.27 MB peak
+[2016.03.30-19.29.56:218][ 33]LogMemory: Process Virtual Memory: 1808.86 MB used, 1812.21 MB peak
+[2016.03.30-19.29.56:218][ 33]LogMemory: Physical Memory: 13208.95 MB used, 16316.02 MB total
+[2016.03.30-19.29.56:218][ 33]LogMemory: Virtual Memory: 2626.00 MB used, 134217728.00 MB total
+[2016.03.30-19.29.56:218][ 33]LogMemory: 
+[2016.03.30-19.29.56:218][ 33]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.29.56:454][ 33]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.29.56:454][ 33]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.29.56:455][ 33]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.29.56:455][ 33]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 7777
+[2016.03.30-19.29.56:459][ 33]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.29.56
+[2016.03.30-19.29.56:459][ 33]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.29.56:459][ 33]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.29.56:459][ 33]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.29.56:459][ 33]LogWorld: Bringing up level for play took: 0.003692
+[2016.03.30-19.29.56:460][ 33]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.29.56:460][ 33]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.31.03:174][816]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.31.03:174][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.31.03:228][816]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.31.03:229][816]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.31.03:229][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.31.03:262][816]LogExit: GameNetDriver None shut down
+[2016.03.30-19.31.03:265][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE38C4E700
+[2016.03.30-19.31.03:310][817]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2016.03.30-19.31.03:310][817]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.31.20:504][384]LogActor:Warning: GameNetworkManager /Engine/Transient.World_7:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.31.29:600][905]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.31.29:600][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.31.29:600][905]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:31:29 PM)
+[2016.03.30-19.31.29:600][905]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.31.29:604][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004113s)
+[2016.03.30-19.31.29:605][905]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.31.29:605][905]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2016.03.30-19.31.29:605][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005097s)
+[2016.03.30-19.31.29:606][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.31.29:644][905]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.31.29:659][905]LogInit: FAudioDevice initialized.
+[2016.03.30-19.31.29:695][905]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.31.29:698][905]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.31.29
+[2016.03.30-19.31.29:698][905]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.31.29:698][905]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.31.29:698][905]LogWorld: Bringing up level for play took: 0.002175
+[2016.03.30-19.31.29:709][905]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.31.29:710][905]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.31.29:710][905]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.31.29:712][905]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.771
+[2016.03.30-19.31.29:712][905]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.31.32:111][ 12]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve MapaCorrida.umap.
+[2016.03.30-19.31.32:213][ 12]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve MapaCorrida.umap.
+[2016.03.30-19.31.32:214][ 12]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.31.32:214][ 12]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.31.32:249][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE59F0AE80
+[2016.03.30-19.31.32:253][ 12]Cmd: MEM
+[2016.03.30-19.31.32:284][ 12]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.31.32:284][ 12]LogMemory: Process Physical Memory: 1177.37 MB used, 1187.12 MB peak
+[2016.03.30-19.31.32:284][ 12]LogMemory: Process Virtual Memory: 2029.09 MB used, 2037.84 MB peak
+[2016.03.30-19.31.32:284][ 12]LogMemory: Physical Memory: 13299.14 MB used, 16316.02 MB total
+[2016.03.30-19.31.32:284][ 12]LogMemory: Virtual Memory: 2874.48 MB used, 134217728.00 MB total
+[2016.03.30-19.31.32:284][ 12]LogMemory: 
+[2016.03.30-19.31.32:284][ 12]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.31.32:550][ 12]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.31.32:551][ 12]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.31.32:551][ 12]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.31.32:552][ 12]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.03.30-19.31.32:555][ 12]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.31.32
+[2016.03.30-19.31.32:555][ 12]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.31.32:555][ 12]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.31.32:556][ 12]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.31.32:556][ 12]LogWorld: Bringing up level for play took: 0.003637
+[2016.03.30-19.31.32:556][ 12]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.31.32:556][ 12]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.32.24:457][219]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve MapaCorrida.umap.
+[2016.03.30-19.32.24:556][219]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve MapaCorrida.umap.
+[2016.03.30-19.32.24:556][219]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.32.24:556][219]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.32.24:556][219]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2016.03.30-19.32.24:556][219]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2016.03.30-19.32.24:556][219]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2016.03.30-19.32.24:608][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE8AA53EC0
+[2016.03.30-19.32.24:608][219]Cmd: MEM
+[2016.03.30-19.32.24:641][219]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.32.24:641][219]LogMemory: Process Physical Memory: 1217.90 MB used, 1233.16 MB peak
+[2016.03.30-19.32.24:641][219]LogMemory: Process Virtual Memory: 2002.16 MB used, 2204.85 MB peak
+[2016.03.30-19.32.24:641][219]LogMemory: Physical Memory: 13347.62 MB used, 16316.02 MB total
+[2016.03.30-19.32.24:641][219]LogMemory: Virtual Memory: 2893.17 MB used, 134217728.00 MB total
+[2016.03.30-19.32.24:641][219]LogMemory: 
+[2016.03.30-19.32.24:641][219]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.32.24:904][219]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.32.24:904][219]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.32.24:905][219]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.32.24:905][219]LogNet: GameNetDriver IpNetDriver_3 IpNetDriver listening on port 7777
+[2016.03.30-19.32.24:909][219]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.32.24
+[2016.03.30-19.32.24:909][219]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.32.24:909][219]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.32.24:909][219]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.32.24:909][219]LogWorld: Bringing up level for play took: 0.003800
+[2016.03.30-19.32.24:910][219]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.32.24:910][219]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.33.09:160][127]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.33.09:160][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.33.09:215][127]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.33.09:215][127]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.33.09:215][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.33.09:256][127]LogExit: GameNetDriver None shut down
+[2016.03.30-19.33.09:280][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE38D03240
+[2016.03.30-19.33.09:281][128]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2016.03.30-19.33.09:281][128]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.34.27:340][505]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.34.27:340][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.34.27:340][505]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:34:27 PM)
+[2016.03.30-19.34.27:340][505]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.34.27:345][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004346s)
+[2016.03.30-19.34.27:345][505]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.34.27:346][505]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2016.03.30-19.34.27:346][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005456s)
+[2016.03.30-19.34.27:346][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.34.27:388][505]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.34.27:402][505]LogInit: FAudioDevice initialized.
+[2016.03.30-19.34.27:438][505]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.34.27:441][505]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.34.27
+[2016.03.30-19.34.27:441][505]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.34.27:441][505]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.34.27:441][505]LogWorld: Bringing up level for play took: 0.002163
+[2016.03.30-19.34.27:452][505]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.34.27:453][505]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.34.27:453][505]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.34.27:454][505]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.514
+[2016.03.30-19.34.27:455][505]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.34.28:640][553]LogPackageName: SearchForPackageOnDisk took   0.099s to resolve MapaCorrida.umap.
+[2016.03.30-19.34.28:736][553]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve MapaCorrida.umap.
+[2016.03.30-19.34.28:736][553]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.34.28:736][553]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.34.28:765][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE97519800
+[2016.03.30-19.34.28:770][553]Cmd: MEM
+[2016.03.30-19.34.28:802][553]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.34.28:802][553]LogMemory: Process Physical Memory: 1252.53 MB used, 1252.54 MB peak
+[2016.03.30-19.34.28:802][553]LogMemory: Process Virtual Memory: 2090.04 MB used, 2204.85 MB peak
+[2016.03.30-19.34.28:802][553]LogMemory: Physical Memory: 13342.59 MB used, 16316.02 MB total
+[2016.03.30-19.34.28:802][553]LogMemory: Virtual Memory: 2958.13 MB used, 134217728.00 MB total
+[2016.03.30-19.34.28:802][553]LogMemory: 
+[2016.03.30-19.34.28:802][553]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.34.29:039][553]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.34.29:039][553]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.34.29:040][553]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.34.29:040][553]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.03.30-19.34.29:044][553]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.34.29
+[2016.03.30-19.34.29:044][553]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.34.29:044][553]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.34.29:044][553]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.34.29:044][553]LogWorld: Bringing up level for play took: 0.003798
+[2016.03.30-19.34.29:045][553]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.34.29:045][553]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.34.53:530][566]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.34.53:531][566]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.34.53:580][566]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.34.53:580][566]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.34.53:580][566]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.34.53:622][566]LogExit: GameNetDriver None shut down
+[2016.03.30-19.34.53:647][567]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE87C62700
+[2016.03.30-19.34.53:648][567]LogPlayLevel:Display: Destroying online subsystem :Context_12
+[2016.03.30-19.34.53:648][567]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.35.05:110][951]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-19.35.12:692][357]Cmd: MODE SCALEGRID=0
+[2016.03.30-19.35.26:015][ 32]BlueprintLog: New page: Compile Pedra_BP
+[2016.03.30-19.35.26:112][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-19.35.26:112][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.03.30-19.35.26:112][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2016.03.30-19.35.26:112][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2016.03.30-19.35.26:178][ 32]BlueprintEditorCompileResults: Info [1112.98] Compile of Pedra_BP successful! [in 163 ms]
+[2016.03.30-19.35.29:387][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.35.29:387][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.35.29:387][198]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:35:29 PM)
+[2016.03.30-19.35.29:387][198]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.35.29:393][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005201s)
+[2016.03.30-19.35.29:394][198]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.35.29:394][198]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2016.03.30-19.35.29:394][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.006831s)
+[2016.03.30-19.35.29:440][198]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.35.29:453][198]LogInit: FAudioDevice initialized.
+[2016.03.30-19.35.29:490][198]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.35.29:493][198]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.35.29
+[2016.03.30-19.35.29:493][198]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.35.29:493][198]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.35.29:493][198]LogWorld: Bringing up level for play took: 0.002307
+[2016.03.30-19.35.29:504][198]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.35.29:505][198]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.35.29:505][198]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.35.29:507][198]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.566
+[2016.03.30-19.35.29:507][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.35.30:651][244]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve MapaCorrida.umap.
+[2016.03.30-19.35.30:743][244]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve MapaCorrida.umap.
+[2016.03.30-19.35.30:743][244]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.35.30:743][244]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.35.30:774][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE91601DA0
+[2016.03.30-19.35.30:779][244]Cmd: MEM
+[2016.03.30-19.35.30:812][244]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.35.30:812][244]LogMemory: Process Physical Memory: 1362.66 MB used, 1364.12 MB peak
+[2016.03.30-19.35.30:812][244]LogMemory: Process Virtual Memory: 2312.87 MB used, 2312.87 MB peak
+[2016.03.30-19.35.30:812][244]LogMemory: Physical Memory: 13448.29 MB used, 16316.02 MB total
+[2016.03.30-19.35.30:812][244]LogMemory: Virtual Memory: 3164.54 MB used, 134217728.00 MB total
+[2016.03.30-19.35.30:812][244]LogMemory: 
+[2016.03.30-19.35.30:812][244]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.35.31:062][244]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.35.31:063][244]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.35.31:063][244]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.35.31:064][244]LogNet: GameNetDriver IpNetDriver_5 IpNetDriver listening on port 7777
+[2016.03.30-19.35.31:067][244]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.35.31
+[2016.03.30-19.35.31:067][244]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.35.31:068][244]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.35.31:068][244]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.35.31:068][244]LogWorld: Bringing up level for play took: 0.004048
+[2016.03.30-19.35.31:069][244]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.35.31:070][244]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.36.18:700][237]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.36.18:700][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.36.18:753][237]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.36.18:754][237]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.36.18:754][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.36.18:800][237]LogExit: GameNetDriver None shut down
+[2016.03.30-19.36.18:826][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE8821E3E0
+[2016.03.30-19.36.18:856][238]LogPlayLevel:Display: Destroying online subsystem :Context_15
+[2016.03.30-19.36.18:856][238]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.36.37:312][886]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-19.37.02:806][264]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5517.EdGraphPin_28027''
+[2016.03.30-19.37.02:806][264]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5517.EdGraphPin_28029''
+[2016.03.30-19.37.02:806][264]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_3044 or K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter:EventGraph.K2Node_CallFunction_3044
+[2016.03.30-19.37.02:806][264]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3044.EdGraphPin_20906''
+[2016.03.30-19.37.54:267][298]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.37.54:661][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-19.37.54:661][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
+[2016.03.30-19.37.54:661][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_4) Not registered. Aborting.
+[2016.03.30-19.37.54:661][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_5) Not registered. Aborting.
+[2016.03.30-19.37.54:661][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.37.54:848][298]BlueprintEditorCompileResults: Info [1261.65] Compile of RunCharacter successful! [in 580 ms]
+[2016.03.30-19.38.14:815][387]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.38.15:201][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.38.15:373][387]BlueprintEditorCompileResults: Info [1282.17] Compile of RunCharacter successful! [in 558 ms]
+[2016.03.30-19.42.36:323][287]LogEditorTransaction: Undo Move Widget
+[2016.03.30-19.46.08:363][237]LogEditorTransaction: Undo Move Widget
+[2016.03.30-19.47.43:856][831]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.47.43:943][831]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.47.44:003][831]BlueprintEditorCompileResults: Info [1850.80] Compile of Start_Widget successful! [in 147 ms]
+[2016.03.30-19.47.47:147][934]LogSavePackage: Save=262.618439ms
+[2016.03.30-19.47.47:147][934]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RunCharacter54AC4CFC4F08758EF32CFF92356E6EF4.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2016.03.30-19.47.47:150][934]LogSavePackage: Total save time: 292.352639ms
+[2016.03.30-19.47.47:150][934]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2016.03.30-19.47.47:193][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/BP/Pedra_BP" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Pedra_BP.uasset" SILENT=true
+[2016.03.30-19.47.47:242][934]LogSavePackage: Save=28.455761ms
+[2016.03.30-19.47.47:242][934]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Pedra_BP905FCA1C44EC2F505A63B3BEE219102E.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Pedra_BP.uasset'
+[2016.03.30-19.47.47:245][934]LogSavePackage: Total save time: 50.437622ms
+[2016.03.30-19.47.47:245][934]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Pedra_BP.uasset
+[2016.03.30-19.47.47:254][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Hud/Start_Widget" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset" SILENT=true
+[2016.03.30-19.47.47:273][934]LogSavePackage: Save=17.639517ms
+[2016.03.30-19.47.47:273][934]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Start_WidgetD3005DA24392FE3C1D7C9BB2C4B1891D.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset'
+[2016.03.30-19.47.47:276][934]LogSavePackage: Total save time: 21.198131ms
+[2016.03.30-19.47.47:276][934]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset
+[2016.03.30-19.48.20:536][702]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.48.20:591][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.30-19.48.20:637][702]BlueprintEditorCompileResults: Info [1887.44] Compile of Start_Widget successful! [in 101 ms]
+[2016.03.30-19.50.56:420][884]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4230.EdGraphPin_59242''
+[2016.03.30-19.50.56:420][884]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter:EventGraph.K2Node_CallFunction_4232 or K2Node_CallFunction /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_CallFunction_4232
+[2016.03.30-19.50.56:420][884]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4232.EdGraphPin_59250''
+[2016.03.30-19.52.05:216][945]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.52.05:227][945]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.52.05:322][945]LogBlueprint:Warning: [compiler Start_Widget] Warning [2112.12] Compile of Start_Widget successful, but with 1 Warning(s) [in 105 ms]
+[2016.03.30-19.52.05:322][945]BlueprintEditorCompileResults:Warning: Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.52.05:322][945]BlueprintEditorCompileResults:Warning: Warning [2112.12] Compile of Start_Widget successful, but with 1 Warning(s) [in 105 ms]
+[2016.03.30-19.52.19:872][793]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.52.19:882][793]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.52.19:972][793]LogBlueprint:Warning: [compiler Start_Widget] Warning [2126.77] Compile of Start_Widget successful, but with 1 Warning(s) [in 99 ms]
+[2016.03.30-19.52.19:972][793]BlueprintEditorCompileResults:Warning: Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.52.19:972][793]BlueprintEditorCompileResults:Warning: Warning [2126.77] Compile of Start_Widget successful, but with 1 Warning(s) [in 99 ms]
+[2016.03.30-19.52.29:921][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Hud/Start_Widget" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset" SILENT=true
+[2016.03.30-19.52.29:976][384]LogSavePackage: Save=30.378757ms
+[2016.03.30-19.52.29:976][384]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Start_WidgetF53074044A09B0DD09D892819EA002BC.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset'
+[2016.03.30-19.52.29:979][384]LogSavePackage: Total save time: 56.320336ms
+[2016.03.30-19.52.29:979][384]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Start_Widget.uasset
+[2016.03.30-19.52.44:580][125]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.52.44:884][125]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.52.45:138][125]BlueprintEditorCompileResults: Info [2151.94] Compile of RunCharacter successful! [in 557 ms]
+[2016.03.30-19.52.47:101][217]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.52.47:101][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.52.47:101][217]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:52:47 PM)
+[2016.03.30-19.52.47:101][217]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.52.47:106][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004527s)
+[2016.03.30-19.52.47:106][217]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.52.47:107][217]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2016.03.30-19.52.47:107][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005450s)
+[2016.03.30-19.52.47:147][217]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.52.47:162][217]LogInit: FAudioDevice initialized.
+[2016.03.30-19.52.47:193][217]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.52.47:196][217]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.52.47
+[2016.03.30-19.52.47:196][217]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.52.47:196][217]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.52.47:196][217]LogWorld: Bringing up level for play took: 0.002337
+[2016.03.30-19.52.47:208][217]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.52.47:209][217]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.52.47:209][217]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.52.47:210][217]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.27
+[2016.03.30-19.52.47:211][217]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.52.48:135][253]LogPackageName: SearchForPackageOnDisk took   0.101s to resolve MapaCorrida.umap.
+[2016.03.30-19.52.48:227][253]LogPackageName: SearchForPackageOnDisk took   0.091s to resolve MapaCorrida.umap.
+[2016.03.30-19.52.48:227][253]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.52.48:228][253]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.52.48:265][253]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CECF1649A0
+[2016.03.30-19.52.48:270][253]Cmd: MEM
+[2016.03.30-19.52.48:307][253]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.52.48:307][253]LogMemory: Process Physical Memory: 2009.86 MB used, 2010.34 MB peak
+[2016.03.30-19.52.48:307][253]LogMemory: Process Virtual Memory: 3159.86 MB used, 3159.86 MB peak
+[2016.03.30-19.52.48:307][253]LogMemory: Physical Memory: 14035.71 MB used, 16316.02 MB total
+[2016.03.30-19.52.48:307][253]LogMemory: Virtual Memory: 4018.05 MB used, 134217728.00 MB total
+[2016.03.30-19.52.48:307][253]LogMemory: 
+[2016.03.30-19.52.48:307][253]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.52.48:542][253]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.52.48:542][253]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.52.48:542][253]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.52.48:543][253]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.03.30-19.52.48:547][253]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.52.48
+[2016.03.30-19.52.48:547][253]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.52.48:547][253]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.52.48:547][253]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.52.48:547][253]LogWorld: Bringing up level for play took: 0.003602
+[2016.03.30-19.52.48:548][253]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.52.48:548][253]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.52.58:146][651]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.52.58:147][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.52.58:194][651]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.52.58:194][651]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.52.58:195][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.52.58:235][651]LogExit: GameNetDriver None shut down
+[2016.03.30-19.52.58:259][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CEC6CF98A0
+[2016.03.30-19.52.58:291][652]LogPlayLevel:Display: Destroying online subsystem :Context_19
+[2016.03.30-19.52.58:291][652]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.53.15:907][666]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.53.15:918][666]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.16:033][666]LogBlueprint:Warning: [compiler Start_Widget] Warning [2182.83] Compile of Start_Widget successful, but with 1 Warning(s) [in 125 ms]
+[2016.03.30-19.53.16:033][666]BlueprintEditorCompileResults:Warning: Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.16:033][666]BlueprintEditorCompileResults:Warning: Warning [2182.83] Compile of Start_Widget successful, but with 1 Warning(s) [in 125 ms]
+[2016.03.30-19.53.17:649][763]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.53.17:660][763]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.17:758][763]LogBlueprint:Warning: [compiler Start_Widget] Warning [2184.56] Compile of Start_Widget successful, but with 1 Warning(s) [in 108 ms]
+[2016.03.30-19.53.17:758][763]BlueprintEditorCompileResults:Warning: Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.17:758][763]BlueprintEditorCompileResults:Warning: Warning [2184.56] Compile of Start_Widget successful, but with 1 Warning(s) [in 108 ms]
+[2016.03.30-19.53.19:995][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.53.19:995][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.53.19:995][880]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:53:19 PM)
+[2016.03.30-19.53.19:995][880]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.53.20:000][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005037s)
+[2016.03.30-19.53.20:001][880]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.53.20:001][880]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2016.03.30-19.53.20:002][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.006668s)
+[2016.03.30-19.53.20:043][880]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.53.20:056][880]LogInit: FAudioDevice initialized.
+[2016.03.30-19.53.20:090][880]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.53.20:093][880]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.53.20
+[2016.03.30-19.53.20:093][880]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.53.20:093][880]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.53.20:093][880]LogWorld: Bringing up level for play took: 0.002370
+[2016.03.30-19.53.20:104][880]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.53.20:105][880]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.53.20:105][880]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.53.20:107][880]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.834
+[2016.03.30-19.53.20:107][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.53.21:000][915]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve MapaCorrida.umap.
+[2016.03.30-19.53.21:091][915]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve MapaCorrida.umap.
+[2016.03.30-19.53.21:091][915]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.53.21:091][915]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.53.21:126][915]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE9B974E00
+[2016.03.30-19.53.21:130][915]Cmd: MEM
+[2016.03.30-19.53.21:165][915]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.53.21:165][915]LogMemory: Process Physical Memory: 2083.59 MB used, 2097.59 MB peak
+[2016.03.30-19.53.21:165][915]LogMemory: Process Virtual Memory: 3182.32 MB used, 3440.79 MB peak
+[2016.03.30-19.53.21:165][915]LogMemory: Physical Memory: 14103.57 MB used, 16316.02 MB total
+[2016.03.30-19.53.21:165][915]LogMemory: Virtual Memory: 4073.38 MB used, 134217728.00 MB total
+[2016.03.30-19.53.21:165][915]LogMemory: 
+[2016.03.30-19.53.21:165][915]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.53.21:396][915]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.53.21:396][915]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.53.21:397][915]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.53.21:397][915]LogNet: GameNetDriver IpNetDriver_7 IpNetDriver listening on port 7777
+[2016.03.30-19.53.21:401][915]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.53.21
+[2016.03.30-19.53.21:401][915]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.53.21:401][915]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.53.21:401][915]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.53.21:402][915]LogWorld: Bringing up level for play took: 0.004099
+[2016.03.30-19.53.21:402][915]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.53.21:402][915]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.53.24:975][ 61]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.53.24:975][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.53.25:027][ 61]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.53.25:028][ 61]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.53.25:028][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.53.25:067][ 61]LogExit: GameNetDriver None shut down
+[2016.03.30-19.53.25:092][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CECF62F9C0
+[2016.03.30-19.53.25:124][ 62]LogPlayLevel:Display: Destroying online subsystem :Context_20
+[2016.03.30-19.53.25:124][ 62]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.53.47:496][377]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-19.53.50:865][569]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.53.51:004][569]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.51:426][569]BlueprintEditorCompileResults: Info [2218.23] Compile of RunCharacter successful! [in 560 ms]
+[2016.03.30-19.53.55:470][805]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.53.55:481][805]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.55:592][805]LogBlueprint:Warning: [compiler Start_Widget] Warning [2222.39] Compile of Start_Widget successful, but with 1 Warning(s) [in 122 ms]
+[2016.03.30-19.53.55:593][805]BlueprintEditorCompileResults:Warning: Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.53.55:593][805]BlueprintEditorCompileResults:Warning: Warning [2222.39] Compile of Start_Widget successful, but with 1 Warning(s) [in 122 ms]
+[2016.03.30-19.54.07:198][487]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-19.54.10:694][684]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.54.10:834][684]LogBlueprint:Warning: [compiler Start_Widget] Warning 'Run Character' does not inherit from 'Player Controller' ( Cast To RunCharacter  would always fail).
+[2016.03.30-19.54.11:278][684]BlueprintEditorCompileResults: Info [2238.08] Compile of RunCharacter successful! [in 583 ms]
+[2016.03.30-19.55.23:109][819]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_DynamicCast_718 or K2Node_DynamicCast /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_DynamicCast_718
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_DynamicCast_718.EdGraphPin_71387) from referencer (EdGraphPin /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_CallFunction_3200.EdGraphPin_21992).  Import failed...
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_718.EdGraphPin_71387''
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_VariableGet_217.EdGraphPin_71403) from referencer (EdGraphPin /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_DynamicCast_718.EdGraphPin_71388).  Import failed...
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_217.EdGraphPin_71403''
+[2016.03.30-19.55.23:109][819]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/MyAssets/Hud/MenuTemporario/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_TextBox.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/Track/BP_Track.BP_Track:GetAttachTransform.K2Node_FunctionResult_1
+[2016.03.30-19.55.23:109][819]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/MyAssets/Hud/MenuTemporario/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_TextBox.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_FunctionResult_1
+[2016.03.30-19.55.23:109][819]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/MyAssets/Hud/MenuTemporario/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_TextBox.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:GetPercent_0.K2Node_FunctionResult_1
+[2016.03.30-19.55.23:109][819]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Game/MyAssets/Hud/MenuTemporario/Multiplayer/MP_FindButton.MP_FindButton:ServerInfo_TextBox.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:GetPercent_1.K2Node_FunctionResult_1
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_FunctionResult_1.EdGraphPin_9048) from referencer (EdGraphPin /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_DynamicCast_718.EdGraphPin_71385).  Import failed...
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_1.EdGraphPin_9048''
+[2016.03.30-19.55.23:109][819]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/MyAssets/Hud/RunCharacter_WidgetBlueprint.RunCharacter_WidgetBlueprint:Get_Freio_Percent_0.K2Node_FunctionEntry_359.EdGraphPin_9039) from referencer (EdGraphPin /Game/MyAssets/Hud/Start_Widget.Start_Widget:EventGraph.K2Node_DynamicCast_718.EdGraphPin_71384).  Import failed...
+[2016.03.30-19.55.23:110][819]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_359.EdGraphPin_9039''
+[2016.03.30-19.55.39:648][798]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.55.39:658][798]LogBlueprint:Error: [compiler Start_Widget] Error This blueprint (self) is not a EditableTextBox, therefore ' Target ' must have a connection.
+[2016.03.30-19.55.39:814][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE3881C4A0
+[2016.03.30-19.55.39:817][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE462872E0
+[2016.03.30-19.55.39:825][798]LogBlueprint:Warning: [compiler Start_Widget] Warning [2326.62] Compile of Start_Widget failed. 1 Fatal Issue(s) 0 Warning(s) [in 176 ms]
+[2016.03.30-19.55.39:825][798]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a EditableTextBox, therefore ' Target ' must have a connection.
+[2016.03.30-19.55.39:825][798]BlueprintEditorCompileResults:Warning: Warning [2326.62] Compile of Start_Widget failed. 1 Fatal Issue(s) 0 Warning(s) [in 176 ms]
+[2016.03.30-19.55.57:818][865]BlueprintLog: New page: Compile Start_Widget
+[2016.03.30-19.55.57:924][865]BlueprintEditorCompileResults: Info [2344.72] Compile of Start_Widget successful! [in 105 ms]
+[2016.03.30-19.56.01:308][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.01:308][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.56.01:308][ 51]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:56:01 PM)
+[2016.03.30-19.56.01:308][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.56.01:313][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004472s)
+[2016.03.30-19.56.01:314][ 51]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.56.01:314][ 51]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2016.03.30-19.56.01:315][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.006558s)
+[2016.03.30-19.56.01:362][ 51]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.56.01:377][ 51]LogInit: FAudioDevice initialized.
+[2016.03.30-19.56.01:409][ 51]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.56.01:412][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.56.01
+[2016.03.30-19.56.01:412][ 51]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.01:412][ 51]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.01:412][ 51]LogWorld: Bringing up level for play took: 0.002541
+[2016.03.30-19.56.01:423][ 51]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.56.01:424][ 51]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.56.01:424][ 51]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.56.01:426][ 51]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.485
+[2016.03.30-19.56.01:426][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.02:281][ 84]LogPackageName: SearchForPackageOnDisk took   0.097s to resolve MapaCorrida.umap.
+[2016.03.30-19.56.02:371][ 84]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve MapaCorrida.umap.
+[2016.03.30-19.56.02:371][ 84]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.56.02:371][ 84]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.56.02:405][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE78BBF240
+[2016.03.30-19.56.02:411][ 84]Cmd: MEM
+[2016.03.30-19.56.02:445][ 84]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.56.02:445][ 84]LogMemory: Process Physical Memory: 2110.14 MB used, 2147.48 MB peak
+[2016.03.30-19.56.02:445][ 84]LogMemory: Process Virtual Memory: 3247.22 MB used, 3440.79 MB peak
+[2016.03.30-19.56.02:445][ 84]LogMemory: Physical Memory: 14108.23 MB used, 16316.02 MB total
+[2016.03.30-19.56.02:445][ 84]LogMemory: Virtual Memory: 4145.03 MB used, 134217728.00 MB total
+[2016.03.30-19.56.02:445][ 84]LogMemory: 
+[2016.03.30-19.56.02:445][ 84]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.56.02:684][ 84]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.56.02:684][ 84]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.56.02:684][ 84]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.56.02:685][ 84]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.03.30-19.56.02:689][ 84]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.56.02
+[2016.03.30-19.56.02:689][ 84]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.02:689][ 84]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.56.02:689][ 84]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.02:689][ 84]LogWorld: Bringing up level for play took: 0.003765
+[2016.03.30-19.56.02:690][ 84]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.56.02:690][ 84]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.56.07:894][297]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.56.07:895][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.07:950][297]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.56.07:951][297]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.56.07:951][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.07:988][297]LogExit: GameNetDriver None shut down
+[2016.03.30-19.56.08:016][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CECF1C9580
+[2016.03.30-19.56.08:046][298]LogPlayLevel:Display: Destroying online subsystem :Context_23
+[2016.03.30-19.56.08:046][298]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.56.24:274][190]BlueprintLog: New page: Compile RunCharacter
+[2016.03.30-19.56.24:845][190]BlueprintEditorCompileResults: Info [2371.64] Compile of RunCharacter successful! [in 569 ms]
+[2016.03.30-19.56.26:110][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.26:110][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.56.26:110][241]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:56:26 PM)
+[2016.03.30-19.56.26:110][241]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.56.26:113][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003622s)
+[2016.03.30-19.56.26:114][241]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.56.26:114][241]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2016.03.30-19.56.26:114][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004651s)
+[2016.03.30-19.56.26:158][241]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.56.26:172][241]LogInit: FAudioDevice initialized.
+[2016.03.30-19.56.26:205][241]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.56.26:207][241]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.56.26
+[2016.03.30-19.56.26:207][241]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.26:207][241]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.26:208][241]LogWorld: Bringing up level for play took: 0.002030
+[2016.03.30-19.56.26:219][241]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.56.26:220][241]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.56.26:220][241]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.56.26:221][241]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.719
+[2016.03.30-19.56.26:221][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.56.27:093][275]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve MapaCorrida.umap.
+[2016.03.30-19.56.27:184][275]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve MapaCorrida.umap.
+[2016.03.30-19.56.27:184][275]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.56.27:184][275]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.56.27:218][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CEBB4391C0
+[2016.03.30-19.56.27:222][275]Cmd: MEM
+[2016.03.30-19.56.27:259][275]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.56.27:259][275]LogMemory: Process Physical Memory: 2139.89 MB used, 2147.48 MB peak
+[2016.03.30-19.56.27:259][275]LogMemory: Process Virtual Memory: 3274.38 MB used, 3472.13 MB peak
+[2016.03.30-19.56.27:259][275]LogMemory: Physical Memory: 14138.79 MB used, 16316.02 MB total
+[2016.03.30-19.56.27:259][275]LogMemory: Virtual Memory: 4216.59 MB used, 134217728.00 MB total
+[2016.03.30-19.56.27:259][275]LogMemory: 
+[2016.03.30-19.56.27:259][275]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.56.27:500][275]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.56.27:501][275]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.56.27:501][275]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.56.27:501][275]LogNet: GameNetDriver IpNetDriver_9 IpNetDriver listening on port 7777
+[2016.03.30-19.56.27:505][275]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.56.27
+[2016.03.30-19.56.27:505][275]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.27:505][275]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.56.27:505][275]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.56.27:506][275]LogWorld: Bringing up level for play took: 0.003634
+[2016.03.30-19.56.27:506][275]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.56.27:506][275]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.57.11:798][179]LogScript:Warning: Cannot access 'BP_JumpRight_C_42'. It is pending kill. Property: 'K2Node_DynamicCast_AsBP_Track2'
+	RunCharacter_C /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.RunCharacter_C_1
+	Function /Game/ThirdPersonBP/Blueprints/RunCharacter.RunCharacter_C:ExecuteUbergraph_RunCharacter:10FD
+[2016.03.30-19.57.11:798][179]PIE:Error: Error Cannot access 'BP_JumpRight_C_42'. It is pending kill. Property: 'K2Node_DynamicCast_AsBP_Track2' from node Cast To BP_Track in graph 'EventGraph' in blueprint RunCharacter
+[2016.03.30-19.57.13:112][235]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.57.13:113][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.13:163][235]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.13:163][235]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.57.13:163][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.13:209][235]LogExit: GameNetDriver None shut down
+[2016.03.30-19.57.13:229][235]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CED39ABA60
+[2016.03.30-19.57.13:271][236]LogPlayLevel:Display: Destroying online subsystem :Context_24
+[2016.03.30-19.57.13:271][236]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.18:418][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.18:418][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.57.18:418][431]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:57:18 PM)
+[2016.03.30-19.57.18:418][431]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.57.18:422][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003816s)
+[2016.03.30-19.57.18:422][431]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.57.18:422][431]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2016.03.30-19.57.18:423][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004762s)
+[2016.03.30-19.57.18:465][431]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.57.18:479][431]LogInit: FAudioDevice initialized.
+[2016.03.30-19.57.18:511][431]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.57.18:514][431]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.57.18
+[2016.03.30-19.57.18:514][431]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.18:514][431]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.18:514][431]LogWorld: Bringing up level for play took: 0.002373
+[2016.03.30-19.57.18:525][431]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.57.18:526][431]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.57.18:526][431]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.57.18:528][431]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.413
+[2016.03.30-19.57.18:528][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.19:591][473]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve MapaCorrida.umap.
+[2016.03.30-19.57.19:689][473]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve MapaCorrida.umap.
+[2016.03.30-19.57.19:689][473]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.57.19:689][473]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.57.19:724][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CEA17CEE80
+[2016.03.30-19.57.19:728][473]Cmd: MEM
+[2016.03.30-19.57.19:763][473]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.57.19:763][473]LogMemory: Process Physical Memory: 2170.69 MB used, 2171.23 MB peak
+[2016.03.30-19.57.19:763][473]LogMemory: Process Virtual Memory: 3314.04 MB used, 3472.13 MB peak
+[2016.03.30-19.57.19:763][473]LogMemory: Physical Memory: 14174.80 MB used, 16316.02 MB total
+[2016.03.30-19.57.19:763][473]LogMemory: Virtual Memory: 4233.48 MB used, 134217728.00 MB total
+[2016.03.30-19.57.19:763][473]LogMemory: 
+[2016.03.30-19.57.19:763][473]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.57.20:010][473]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.57.20:010][473]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.57.20:011][473]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.57.20:011][473]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 7777
+[2016.03.30-19.57.20:015][473]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.57.20
+[2016.03.30-19.57.20:015][473]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.20:015][473]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.57.20:016][473]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.20:016][473]LogWorld: Bringing up level for play took: 0.003792
+[2016.03.30-19.57.20:016][473]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.57.20:017][473]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.57.35:687][116]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.57.35:687][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.35:735][116]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.35:735][116]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.57.35:736][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.35:776][116]LogExit: GameNetDriver None shut down
+[2016.03.30-19.57.35:802][117]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CEAB2A6D40
+[2016.03.30-19.57.35:833][117]LogPlayLevel:Display: Destroying online subsystem :Context_25
+[2016.03.30-19.57.35:833][117]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.36:909][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.36:909][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.30-19.57.36:910][158]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 1:57:36 PM)
+[2016.03.30-19.57.36:910][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.30-19.57.36:914][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004416s)
+[2016.03.30-19.57.36:915][158]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.30-19.57.36:915][158]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2016.03.30-19.57.36:915][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005438s)
+[2016.03.30-19.57.36:962][158]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.30-19.57.36:979][158]LogInit: FAudioDevice initialized.
+[2016.03.30-19.57.37:013][158]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.30-19.57.37:016][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-16.57.37
+[2016.03.30-19.57.37:017][158]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.37:017][158]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.37:017][158]LogWorld: Bringing up level for play took: 0.002403
+[2016.03.30-19.57.37:028][158]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.30-19.57.37:029][158]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.30-19.57.37:029][158]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.57.37:030][158]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.09
+[2016.03.30-19.57.37:031][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.38:352][213]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve MapaCorrida.umap.
+[2016.03.30-19.57.38:443][213]LogPackageName: SearchForPackageOnDisk took   0.089s to resolve MapaCorrida.umap.
+[2016.03.30-19.57.38:443][213]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.57.38:443][213]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.30-19.57.38:477][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE78835DA0
+[2016.03.30-19.57.38:481][213]Cmd: MEM
+[2016.03.30-19.57.38:516][213]LogMemory: Platform Memory Stats for Windows
+[2016.03.30-19.57.38:516][213]LogMemory: Process Physical Memory: 2182.84 MB used, 2189.90 MB peak
+[2016.03.30-19.57.38:516][213]LogMemory: Process Virtual Memory: 3465.68 MB used, 3533.25 MB peak
+[2016.03.30-19.57.38:516][213]LogMemory: Physical Memory: 14188.34 MB used, 16316.02 MB total
+[2016.03.30-19.57.38:516][213]LogMemory: Virtual Memory: 4365.11 MB used, 134217728.00 MB total
+[2016.03.30-19.57.38:516][213]LogMemory: 
+[2016.03.30-19.57.38:516][213]Allocator Stats for TBB: (not implemented)
+[2016.03.30-19.57.38:764][213]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.30-19.57.38:764][213]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.30-19.57.38:764][213]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.30-19.57.38:765][213]LogNet: GameNetDriver IpNetDriver_11 IpNetDriver listening on port 7777
+[2016.03.30-19.57.38:768][213]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-16.57.38
+[2016.03.30-19.57.38:768][213]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.38:768][213]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.30-19.57.38:769][213]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.30-19.57.38:769][213]LogWorld: Bringing up level for play took: 0.003644
+[2016.03.30-19.57.38:769][213]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.30-19.57.38:770][213]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.30-19.57.43:313][399]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.30-19.57.43:314][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.43:362][399]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.43:363][399]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.30-19.57.43:363][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-19.57.43:401][399]LogExit: GameNetDriver None shut down
+[2016.03.30-19.57.43:428][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CE8B334A40
+[2016.03.30-19.57.43:428][400]LogPlayLevel:Display: Destroying online subsystem :Context_26
+[2016.03.30-19.57.43:428][400]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-19.57.59:175][225]LogSavePackage: Save=238.785019ms
+[2016.03.30-19.57.59:175][225]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RunCharacterA4C909564764CE259330D2BEF5D666A1.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
+[2016.03.30-19.57.59:178][225]LogSavePackage: Total save time: 267.108992ms
+[2016.03.30-19.57.59:178][225]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
+[2016.03.30-19.57.59:186][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Hud/Start_Widget" FILE="../../../../

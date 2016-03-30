@@ -446,4 +446,670 @@
 [2016.03.30-18.04.03:300][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
 [2016.03.30-18.04.03:353][399]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
 [2016.03.30-18.04.03:353][399]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-18.04.03:354][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Mai
+[2016.03.30-18.04.03:354][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.30-18.04.03:386][399]LogExit: GameNetDriver None shut down
+[2016.03.30-18.04.03:405][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C17CAD300
+[2016.03.30-18.04.03:405][400]LogPlayLevel:Display: Destroying online subsystem :Context_19
+[2016.03.30-18.04.03:405][400]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.30-18.04.06:584][519]LogSavePackage: Save=71.944069ms
+[2016.03.30-18.04.06:584][519]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/MP_ServerBrowserF3DC6F9F40E86A747EB9B78EF614C5DA.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/MenuTemporario/Multiplayer/MP_ServerBrowser.uasset'
+[2016.03.30-18.04.06:587][519]LogSavePackage: Total save time: 116.126612ms
+[2016.03.30-18.04.06:587][519]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/MenuTemporario/Multiplayer/MP_ServerBrowser.uasset
+[2016.03.30-18.04.06:616][519]LogSavePackage: Save=1.640952ms
+[2016.03.30-18.04.06:616][519]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst594B20C74845CE8E81445AB55967C3A5.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
+[2016.03.30-18.04.06:618][519]LogSavePackage: Total save time: 22.022508ms
+[2016.03.30-18.04.06:618][519]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
+[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_15) Not registered. Aborting.
+[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_16) Not registered. Aborting.
+[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_17) Not registered. Aborting.
+[2016.03.30-18.09.33:812][ 73]LogSavePackage: Save=10.580590ms
+[2016.03.30-18.09.33:812][ 73]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP6EC58E34498CB5472CB6EEB06E4268A2.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
+[2016.03.30-18.09.33:815][ 73]LogSavePackage: Total save time: 17.047510ms
+[2016.03.30-18.09.33:815][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
+[2016.03.30-18.11.31:864][147]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_18) Not registered. Aborting.
+[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_19) Not registered. Aborting.
+[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_20) Not registered. Aborting.
+[2016.03.30-18.11.31:953][147]BlueprintEditorCompileResults: Info [1499.69] Compile of RandomSpawnObstacles_BP successful! [in 88 ms]
+[2016.03.30-18.11.48:277][122]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.11.48:367][122]BlueprintEditorCompileResults: Info [1516.11] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
+[2016.03.30-18.12.20:602][ 47]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.12.20:676][ 47]BlueprintEditorCompileResults: Info [1548.42] Compile of RandomSpawnObstacles_BP successful! [in 74 ms]
+[2016.03.30-18.12.50:397][815]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.12.50:493][815]BlueprintEditorCompileResults: Info [1578.23] Compile of RandomSpawnObstacles_BP successful! [in 95 ms]
+[2016.03.30-18.13.06:861][782]LogEditorTransaction: Undo Move Node
+[2016.03.30-18.13.07:054][793]LogEditorTransaction: Undo Add Node
+[2016.03.30-18.13.07:331][801]LogEditorTransaction: Undo Move Node
+[2016.03.30-18.13.07:698][820]LogEditorTransaction: Undo Add Component Nodes
+[2016.03.30-18.13.07:914][832]LogEditorTransaction: Undo Rename Function
+[2016.03.30-18.13.08:172][847]LogEditorTransaction: Undo Add New Function
+[2016.03.30-18.13.08:395][860]LogEditorTransaction: Undo Set actor scale
+[2016.03.30-18.13.08:685][877]LogEditorTransaction: Undo Set actor scale
+[2016.03.30-18.13.08:940][892]LogEditorTransaction: Undo Set actor scale
+[2016.03.30-18.13.09:212][908]LogEditorTransaction: Undo Set actor scale
+[2016.03.30-18.13.09:436][921]LogEditorTransaction: Undo Make New Scene Root
+[2016.03.30-18.13.09:692][936]LogEditorTransaction: Undo Add Component
+[2016.03.30-18.13.25:518][874]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.13.25:608][874]BlueprintEditorCompileResults: Info [1613.35] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
+[2016.03.30-18.14.31:227][768]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.14.31:304][768]BlueprintEditorCompileResults: Info [1679.04] Compile of RandomSpawnObstacles_BP successful! [in 77 ms]
+[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106.EdGraphPin_41356) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41293).  Import failed...
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_41356''
+[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41395) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41294).  Import failed...
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41395''
+[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3155 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3155.EdGraphPin_41434) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41295).  Import failed...
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3155.EdGraphPin_41434''
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_AddComponent_68.EdGraphPin_41273) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41296).  Import failed...
+[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_68.EdGraphPin_41273''
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41310) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41323).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41310''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41392) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41324).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41392''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41393) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41325).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41393''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41419) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41326).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41419''
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41309) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41338).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41309''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41498) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41339).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41498''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41380) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41340).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41380''
+[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106.EdGraphPin_41355) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41341).  Import failed...
+[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_41355''
+[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41499) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106.EdGraphPin_41353).  Import failed...
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41499''
+[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41382) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106.EdGraphPin_41354).  Import failed...
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41382''
+[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41381) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3195.EdGraphPin_41370).  Import failed...
+[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41381''
+[2016.03.30-18.14.59:866][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
+[2016.03.30-18.14.59:866][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41421) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109.EdGraphPin_41394).  Import failed...
+[2016.03.30-18.14.59:866][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41421''
+[2016.03.30-18.14.59:866][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
+[2016.03.30-18.14.59:866][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41420) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3157.EdGraphPin_41409).  Import failed...
+[2016.03.30-18.14.59:866][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41420''
+[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156.EdGraphPin_41447) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41431).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3156.EdGraphPin_41447''
+[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156.EdGraphPin_41448) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41432).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3156.EdGraphPin_41448''
+[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41475) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41433).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41475''
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41311) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156.EdGraphPin_41446).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41311''
+[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41473) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156.EdGraphPin_41449).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41473''
+[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41474) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3108.EdGraphPin_41463).  Import failed...
+[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41474''
+[2016.03.30-18.14.59:868][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
+[2016.03.30-18.14.59:868][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41497) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3110.EdGraphPin_41487).  Import failed...
+[2016.03.30-18.14.59:868][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41497''
+[2016.03.30-18.15.58:663][824]LogEditorTransaction: Undo Move Node
+[2016.03.30-18.16.40:428][317]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.16.44:981][586]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_21) Not registered. Aborting.
+[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_22) Not registered. Aborting.
+[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_23) Not registered. Aborting.
+[2016.03.30-18.16.45:087][586]BlueprintEditorCompileResults: Info [1812.83] Compile of RandomSpawnObstacles_BP successful! [in 105 ms]
+[2016.03.30-18.17.10:922][136]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.17.11:005][136]BlueprintEditorCompileResults: Info [1838.74] Compile of RandomSpawnObstacles_BP successful! [in 83 ms]
+[2016.03.30-18.17.25:248][982]LogSavePackage: Save=1.768632ms
+[2016.03.30-18.17.25:248][982]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst5039F12E483B40A8E8761E879C4FB7D3.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
+[2016.03.30-18.17.25:250][982]LogSavePackage: Total save time: 27.793963ms
+[2016.03.30-18.17.25:250][982]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
+[2016.03.30-18.17.25:312][982]LogSavePackage: Save=31.167828ms
+[2016.03.30-18.17.25:312][982]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP6A707BD4417FAFB625FBAA9C2FE4CC8E.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
+[2016.03.30-18.17.25:316][982]LogSavePackage: Total save time: 57.540476ms
+[2016.03.30-18.17.25:316][982]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
+[2016.03.30-18.18.42:613][576]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.18.48:228][909]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.18.48:320][909]BlueprintEditorCompileResults: Info [1936.06] Compile of RandomSpawnObstacles_BP successful! [in 91 ms]
+[2016.03.30-18.19.51:330][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.040
+[2016.03.30-18.19.51:336][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/BP/RandomSpawnObstacles_BP] ([1] browsable assets)...
+[2016.03.30-18.19.51:336][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/BP/RandomSpawnObstacles_BP]
+[2016.03.30-18.19.51:404][646]LogSavePackage: Save=42.689800ms
+[2016.03.30-18.19.51:404][646]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP_Auto147DEA2CF482D1B38C3A78FA3DED4309B.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto1.uasset'
+[2016.03.30-18.19.51:406][646]LogSavePackage: Total save time: 68.527095ms
+[2016.03.30-18.19.51:406][646]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto1.uasset
+[2016.03.30-18.19.51:406][646]LogFileHelpers: Auto-saving content packages took 0.075
+[2016.03.30-18.20.49:968][160]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.20.49:979][160]LogBlueprint:Error: [compiler RandomSpawnObstacles_BP] Error Unknown template referenced by 'Add Component
+Target is Actor' for  Add Component 
+[2016.03.30-18.20.50:097][160]LogBlueprint:Warning: [compiler RandomSpawnObstacles_BP] Warning [2057.84] Compile of RandomSpawnObstacles_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms]
+[2016.03.30-18.20.50:097][160]BlueprintEditorCompileResults:Error: Error Unknown template referenced by 'Add Component
+Target is Actor' for  Add Component 
+[2016.03.30-18.20.50:097][160]BlueprintEditorCompileResults:Warning: Warning [2057.84] Compile of RandomSpawnObstacles_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms]
+[2016.03.30-18.21.08:508][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.30-18.21.08:508][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_24) Not registered. Aborting.
+[2016.03.30-18.21.08:509][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_25) Not registered. Aborting.
+[2016.03.30-18.21.08:509][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_26) Not registered. Aborting.
+[2016.03.30-18.21.08:642][ 42]LogSavePackage: Save=40.288925ms
+[2016.03.30-18.21.08:642][ 42]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP511ADE1A4888FAC48723BE9DC4AD35E8.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
+[2016.03.30-18.21.08:645][ 42]LogSavePackage: Total save time: 64.587910ms
+[2016.03.30-18.21.08:645][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
+[2016.03.30-18.21.33:790][534]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.21.41:086][967]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.21.41:173][967]BlueprintEditorCompileResults: Info [2108.91] Compile of RandomSpawnObstacles_BP successful! [in 86 ms]
+[2016.03.30-18.21.51:858][597]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.21.56:077][846]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.21.56:162][846]BlueprintEditorCompileResults: Info [2123.90] Compile of RandomSpawnObstacles_BP successful! [in 85 ms]
+[2016.03.30-18.22.07:505][524]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.22.07:598][524]BlueprintEditorCompileResults: Info [2135.34] Compile of RandomSpawnObstacles_BP successful! [in 92 ms]
+[2016.03.30-18.22.43:409][636]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.22.47:991][907]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.22.48:081][907]BlueprintEditorCompileResults: Info [2175.82] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
+[2016.03.30-18.25.10:627][347]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.25.10:725][347]BlueprintEditorCompileResults: Info [2318.46] Compile of RandomSpawnObstacles_BP successful! [in 97 ms]
+[2016.03.30-18.25.20:762][947]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.25.20:858][947]BlueprintEditorCompileResults: Info [2328.60] Compile of RandomSpawnObstacles_BP successful! [in 96 ms]
+[2016.03.30-18.25.44:265][319]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.25.44:366][319]BlueprintEditorCompileResults: Info [2352.10] Compile of RandomSpawnObstacles_BP successful! [in 100 ms]
+[2016.03.30-18.27.19:282][980]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.27.19:371][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1B88A40
+[2016.03.30-18.27.19:372][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1B8A7A0
+[2016.03.30-18.27.19:381][980]BlueprintEditorCompileResults: Info [2447.12] Compile of RandomSpawnObstacles_BP successful! [in 98 ms]
+[2016.03.30-18.27.30:136][625]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowUp.K2Node_CallFunction_4669 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowDown.K2Node_CallFunction_4669
+[2016.03.30-18.27.30:136][625]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowUp.K2Node_CallFunction_4669 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowDown.K2Node_CallFunction_4669
+[2016.03.30-18.27.58:965][353]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.27.59:065][353]BlueprintEditorCompileResults: Info [2486.80] Compile of RandomSpawnObstacles_BP successful! [in 99 ms]
+[2016.03.30-18.28.42:405][876]LogEditorTransaction: Undo Make New Scene Root
+[2016.03.30-18.29.08:409][393]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.29.08:432][393]LogWorld: --- Actors Currently in /Engine/Transient.World_13:PersistentLevel ---
+[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.WorldSettings
+[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.Brush_14
+[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.DefaultPhysicsVolume_16
+[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.ParticleEventManager_20
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:432][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:433][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   NONE
+[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_706
+[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.ArrowUp_C_184
+[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_0
+[2016.03.30-18.30.04:073][393]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1234]
+Could not remove actor /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_19 from world (check level is /Engine/Transient.World_13:PersistentLevel)
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
+UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
+UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
+UE4Editor-Engine.dll!UWorld::RemoveActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\world.cpp:1234]
+UE4Editor-Engine.dll!UWorld::DestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:621]
+UE4Editor-Engine.dll!UWorld::EditorDestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:471]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1333]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1141]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:519]
+UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:619]
+UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:790]
+UE4Editor-Kismet.dll!FBlueprintEditor::Compile() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismet\private\blueprinteditor.cpp:3110]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:387]
+UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:87]
+UE4Editor-Slate.dll!SToolBarButtonBlock::OnClicked() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\multibox\stoolbarbuttonblock.cpp:296]
+UE4Editor-Slate.dll!TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64>::operator()<>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
+UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\tuple.h:113]
+UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SToolBarButtonBlock,0,FReply __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:440]
+UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:236]
+UE4Editor-Slate.dll!<lambda_4ba5b0c116ad939f50a9b616659f063a>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4276]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_4ba5b0c116ad939f50a9b616659f063a> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
+UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4266]
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4663]
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4641]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1416]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1721]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:719]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:641]
+USER32.dll
+USER32.dll
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
+UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2391]
+UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
+UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+KERNEL32.DLL
+ntdll.dll
+ntdll.dll
+
+[2016.03.30-18.30.22:692][393]BlueprintEditorCompileResults: Info [2630.43] Compile of RandomSpawnObstacles_BP successful! [in 74,282 ms]
+[2016.03.30-18.30.33:190][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.033
+[2016.03.30-18.30.33:197][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/Materials/Decoration1_material_Inst] ([1] browsable assets)...
+[2016.03.30-18.30.33:197][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/Materials/Decoration1_material_Inst]
+[2016.03.30-18.30.33:229][425]LogSavePackage: Save=2.597114ms
+[2016.03.30-18.30.33:229][425]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst_Auto284A26E644FD6B7849911328A4556E2AD.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/Materials/Decoration1_material_Inst_Auto2.uasset'
+[2016.03.30-18.30.33:231][425]LogSavePackage: Total save time: 32.579694ms
+[2016.03.30-18.30.33:231][425]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/Materials/Decoration1_material_Inst_Auto2.uasset
+[2016.03.30-18.30.33:237][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/BP/RandomSpawnObstacles_BP] ([1] browsable assets)...
+[2016.03.30-18.30.33:237][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/BP/RandomSpawnObstacles_BP]
+[2016.03.30-18.30.33:358][425]LogSavePackage: Save=101.218460ms
+[2016.03.30-18.30.33:358][425]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP_Auto27CBEF7C144464862DF6CCF9FF49E9D30.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto2.uasset'
+[2016.03.30-18.30.33:360][425]LogSavePackage: Total save time: 122.164100ms
+[2016.03.30-18.30.33:360][425]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto2.uasset
+[2016.03.30-18.30.33:360][425]LogFileHelpers: Auto-saving content packages took 0.169
+[2016.03.30-18.31.27:666][961]LogSavePackage: Save=1.672564ms
+[2016.03.30-18.31.27:666][961]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst7A5570934C982DEF84024C96322B9488.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
+[2016.03.30-18.31.27:670][961]LogSavePackage: Total save time: 27.675312ms
+[2016.03.30-18.31.27:670][961]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
+[2016.03.30-18.31.27:761][961]LogSavePackage: Save=66.045753ms
+[2016.03.30-18.31.27:761][961]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BPBBF31CB3470918F2C64EBBB42BE6CE8B.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
+[2016.03.30-18.31.27:764][961]LogSavePackage: Total save time: 85.693251ms
+[2016.03.30-18.31.27:764][961]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
+[2016.03.30-18.31.31:837][166]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.31.31:939][166]BlueprintEditorCompileResults: Info [2699.68] Compile of RandomSpawnObstacles_BP successful! [in 101 ms]
+[2016.03.30-18.31.52:611][400]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.03.30-18.32.37:069][ 31]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
+[2016.03.30-18.32.37:176][ 31]BlueprintEditorCompileResults: Info [2764.91] Compile of RandomSpawnObstacles_BP successful! [in 105 ms]
+[2016.03.30-18.32.56:908][119]LogSavePackage: Save=72.524994ms
+[2016.03.30-18.32.56:908][119]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BPBA6B5BD3499FD843BF9D0CB23EAAE173.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
+[2016.03.30-18.32.56:910][119]LogSavePackage: Total save time: 97.258743ms
+[2016.03.30-18.32.56:910][119]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
+[2016.03.30-18.32.58:555][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.30-18.32.58:610][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.30-18.32.58:713][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.30-18.32.58:767][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.30-18.32.58:829][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.30-18.32.59:124][179]Cmd: QUIT_EDITOR
+[2016.03.30-18.32.59:205][179]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-18.32.59:209][179]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.30-18.32.59:285][179]LogExit: Preparing to exit.
+[2016.03.30-18.33.00:452][179]LogExit: Editor shut down
+[2016.03.30-18.33.00:452][179]LogExit: Transaction tracking system shut down
+[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BA9D67A60
+[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC556F880
+[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC56BD800
+[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC52AE5C0
+[2016.03.30-18.33.00:456][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BE48D3920
+[2016.03.30-18.33.00:462][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1DD8F40
+[2016.03.30-18.33.00:463][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C40A0E160
+[2016.03.30-18.33.00:464][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C1D4B93A0
+[2016.03.30-18.33.00:464][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF0607240
+[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015B88FB8720
+[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015B8D62F2E0
+[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF09209A0
+[2016.03.30-18.33.00:665][179]LogExit: Object subsystem successfully closed.
+[2016.03.30-18.33.00:678][179]LogD3D11RHI: Shutdown
+[2016.03.30-18.33.00:678][179]LogD3D11RHI: CleanupD3DDevice
+[2016.03.30-18.33.00:822][179]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module SequencerWidgets (205)
+[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module CookingStats (204)
+[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
+[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
+[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and ab

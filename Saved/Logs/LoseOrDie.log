@@ -1,1115 +1,287 @@
-﻿[2016.03.30-17.46.32:736][  0]Log file open, 03/30/16 14:46:32
-[2016.03.30-17.46.32:736][  0]LogInit:Display: Running engine for game: LoseOrDie
-[2016.03.30-17.46.32:736][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.30-17.46.32:736][  0]LogInit:Display: RandInit(-1575976983) SRandInit(-1575976981).
-[2016.03.30-17.46.32:736][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.03.30-17.46.32:736][  0]LogStats: Stats thread started at 0.092941
-[2016.03.30-17.46.32:736][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.30-17.46.32:736][  0]LogInit: API Version: 2758231
-[2016.03.30-17.46.32:736][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.30-17.46.32:736][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.30-17.46.32:736][  0]LogInit: Build Configuration: Development
-[2016.03.30-17.46.32:736][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.30-17.46.32:736][  0]LogInit: Command line:  
-[2016.03.30-17.46.32:736][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.30-17.46.32:736][  0]LogInit: Rocket: 1
-[2016.03.30-17.46.32:748][  0]LogInit: Using libcurl 7.41.0
-[2016.03.30-17.46.32:748][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.30-17.46.32:748][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.30-17.46.32:748][  0]LogInit:  - other features:
-[2016.03.30-17.46.32:748][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.30-17.46.32:748][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.30-17.46.32:748][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.30-17.46.32:748][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.30-17.46.32:748][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.30-17.46.32:748][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.30-17.46.32:748][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.30-17.46.32:748][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.30-17.46.32:748][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.30-17.46.32:748][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.30-17.46.32:765][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/' was not found.
-[2016.03.30-17.46.32:784][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.30-17.46.32:790][  0]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-17.46.32:794][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.30-17.46.32:800][  0]LogInit: Object subsystem initialized
-[2016.03.30-17.46.32:800][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.30-17.46.32:800][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.30-17.46.32:808][  0]LogInit: Computer: HP
-[2016.03.30-17.46.32:808][  0]LogInit: User: SAA
-[2016.03.30-17.46.32:808][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.03.30-17.46.32:808][  0]LogInit: High frequency timer resolution =2.435781 MHz
-[2016.03.30-17.46.32:808][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.03.30-17.46.32:808][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.30-17.46.32:808][  0]LogMemory: Process Physical Memory: 57.51 MB used, 57.51 MB peak
-[2016.03.30-17.46.32:808][  0]LogMemory: Process Virtual Memory: 57.06 MB used, 57.06 MB peak
-[2016.03.30-17.46.32:808][  0]LogMemory: Physical Memory: 4790.93 MB used, 16316.02 MB total
-[2016.03.30-17.46.32:808][  0]LogMemory: Virtual Memory: 384.97 MB used, 134217728.00 MB total
-[2016.03.30-17.46.32:856][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
-[2016.03.30-17.46.33:270][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
-[2016.03.30-17.46.33:270][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
-[2016.03.30-17.46.33:277][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
-[2016.03.30-17.46.33:277][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.30-17.46.33:279][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.30-17.46.33:279][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
-[2016.03.30-17.46.33:279][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.30-17.46.33:284][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.30-17.46.33:284][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.30-17.46.33:297][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.30-17.46.33:314][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/22632/).
-[2016.03.30-17.46.33:314][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/29292BBA4D030D81D356BC9D51A7456B/'.
-[2016.03.30-17.46.33:314][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.30-17.46.35:646][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.30-17.46.35:652][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.30-17.46.35:658][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.30-17.46.35:664][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.30-17.46.35:670][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.30-17.46.35:674][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.30-17.46.35:677][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.30-17.46.35:680][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.30-17.46.35:684][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.30-17.46.35:688][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.30-17.46.35:691][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.30-17.46.35:698][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.30-17.46.35:698][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.30-17.46.35:699][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.30-17.46.35:717][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.30-17.46.35:721][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.30-17.46.35:724][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.30-17.46.35:728][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.30-17.46.35:728][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-17.46.35:848][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.30-17.46.35:889][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.30-17.46.35:946][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.30-17.46.35:958][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.30-17.46.36:175][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.30-17.46.36:177][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.30-17.46.36:286][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.30-17.46.36:286][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.30-17.46.37:536][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.30-17.46.37:654][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
-[2016.03.30-17.46.37:851][  0]SourceControl: Info Source control is disabled
-[2016.03.30-17.46.40:919][  0]SourceControl: Info Source control is disabled
-[2016.03.30-17.46.40:939][  0]SourceControl: Info Source control is disabled
-[2016.03.30-17.46.40:965][  0]SourceControl: Info Source control is disabled
-[2016.03.30-17.46.41:419][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2016.03.30-17.46.41:419][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
-[2016.03.30-17.46.41:478][  0]LogEngine: Initializing Engine...
-[2016.03.30-17.46.41:480][  0]OCULUS: Info: 03/30/16 17:46:41: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+﻿[2016.03.31-02.36.00:561][  0]Log file open, 03/30/16 23:36:00
+[2016.03.31-02.36.00:561][  0]LogInit:Display: Running engine for game: LoseOrDie
+[2016.03.31-02.36.00:561][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.31-02.36.00:561][  0]LogInit:Display: RandInit(1384788827) SRandInit(1384788828).
+[2016.03.31-02.36.00:561][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.31-02.36.00:561][  0]LogStats: Stats thread started at 1.050503
+[2016.03.31-02.36.00:561][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.31-02.36.00:561][  0]LogInit: API Version: 2758231
+[2016.03.31-02.36.00:561][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.31-02.36.00:561][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.31-02.36.00:561][  0]LogInit: Build Configuration: Development
+[2016.03.31-02.36.00:561][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.31-02.36.00:561][  0]LogInit: Command line:  
+[2016.03.31-02.36.00:561][  0]LogInit: Base directory: C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.31-02.36.00:561][  0]LogInit: Rocket: 1
+[2016.03.31-02.36.00:659][  0]LogInit: Using libcurl 7.41.0
+[2016.03.31-02.36.00:659][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.31-02.36.00:659][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.31-02.36.00:659][  0]LogInit:  - other features:
+[2016.03.31-02.36.00:659][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.31-02.36.00:659][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.31-02.36.00:659][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.31-02.36.00:659][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.31-02.36.00:659][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.31-02.36.00:659][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.31-02.36.00:659][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.31-02.36.00:659][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.31-02.36.00:659][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.31-02.36.00:659][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.31-02.36.00:678][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemLAN' because the file 'C:/Gabriel/Programs/Unreal4/Epic Games/4.10/Engine/Binaries/Win64/' was not found.
+[2016.03.31-02.36.00:813][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.31-02.36.00:819][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.31-02.36.00:823][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.31-02.36.00:828][  0]LogInit: Object subsystem initialized
+[2016.03.31-02.36.00:829][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-02.36.00:829][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.31-02.36.00:836][  0]LogInit: Computer: HP
+[2016.03.31-02.36.00:836][  0]LogInit: User: SAA
+[2016.03.31-02.36.00:836][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.31-02.36.00:836][  0]LogInit: High frequency timer resolution =2.435776 MHz
+[2016.03.31-02.36.00:836][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.31-02.36.00:836][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-02.36.00:836][  0]LogMemory: Process Physical Memory: 58.79 MB used, 58.79 MB peak
+[2016.03.31-02.36.00:836][  0]LogMemory: Process Virtual Memory: 57.00 MB used, 57.00 MB peak
+[2016.03.31-02.36.00:836][  0]LogMemory: Physical Memory: 4863.95 MB used, 16316.02 MB total
+[2016.03.31-02.36.00:836][  0]LogMemory: Virtual Memory: 370.55 MB used, 134217728.00 MB total
+[2016.03.31-02.36.01:405][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.03.31-02.36.01:851][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 840M    (Feature Level 11_0)
+[2016.03.31-02.36.01:851][  0]LogD3D11RHI: Adapter has 1995MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 1 output[s]
+[2016.03.31-02.36.02:284][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.03.31-02.36.02:284][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.31-02.36.02:285][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.31-02.36.02:285][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8158MB of shared system memory, 0 output[s]
+[2016.03.31-02.36.02:285][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.31-02.36.02:290][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.31-02.36.02:290][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.31-02.36.02:302][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.31-02.36.02:319][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Intermediate/Shaders/WorkingDirectory/11100/).
+[2016.03.31-02.36.02:320][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SAA/AppData/Local/Temp/UnrealShaderWorkingDir/96D8D51A4F045EC8E633AC9AE764FFFF/'.
+[2016.03.31-02.36.02:320][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.31-02.36.05:562][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.31-02.36.05:575][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.31-02.36.05:594][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.31-02.36.05:607][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.31-02.36.05:633][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.31-02.36.05:644][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.31-02.36.05:655][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.31-02.36.05:665][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.31-02.36.05:676][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.31-02.36.05:686][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.31-02.36.05:711][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.31-02.36.05:732][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.31-02.36.05:732][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.31-02.36.05:741][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.31-02.36.05:842][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.31-02.36.05:851][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.31-02.36.05:874][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.31-02.36.05:904][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.31-02.36.05:904][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.31-02.36.06:766][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.31-02.36.07:803][  0]LogDerivedDataCache: Loaded boot cache 1.00s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.31-02.36.07:803][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.31-02.36.07:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.31-02.36.07:804][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.31-02.36.07:804][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.31-02.36.07:804][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.31-02.36.07:955][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.31-02.36.08:033][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SAA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.31-02.36.13:494][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.31-02.36.13:508][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.31-02.36.14:235][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.31-02.36.14:235][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.31-02.37.05:252][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.31-02.37.06:235][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.03.31-02.37.10:462][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.37.13:297][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.37.13:397][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.37.13:464][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.37.15:022][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.31-02.37.15:022][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.31-02.37.15:260][  0]LogEngine: Initializing Engine...
+[2016.03.31-02.37.15:413][  0]OCULUS: Info: 03/31/16 02:37:15: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
 
-[2016.03.30-17.46.41:481][  0]OCULUS: Info: 03/30/16 17:46:41: [IPC] Call Stats for SetInitialState : x1: C2S=26.6855, S2C=4.51601, Runtime=46.8022 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
-
-[2016.03.30-17.46.41:481][  0]OCULUS: Info: 03/30/16 17:46:41: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=18.4746, S2C=2.87382, Runtime=0.821092 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
-
-[2016.03.30-17.46.41:497][  0]LogHMD: SteamVR failed to initialize.  Err: 108
-[2016.03.30-17.46.41:635][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.30-17.46.41:645][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-17.46.41:664][  0]LogInit: FAudioDevice initialized.
-[2016.03.30-17.46.41:684][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.30-17.46.41:688][  0]LogInit: Texture streaming: Enabled
-[2016.03.30-17.46.41:696][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.30-17.46.41:696][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.30-17.46.41:696][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6e58a904b162431bdc4319006156b95|d87a143c86174d7ea2ead77b8ac6e0d8|a54faa0c-de25-4ef6-94d5-27208093865c
-[2016.03.30-17.46.41:696][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.30-17.46.41:709][  0]LogInit: Transaction tracking system initialized
-[2016.03.30-17.46.41:750][  0]BlueprintLog: New page: Editor Load
-[2016.03.30-17.46.41:893][  0]LocalizationService: Info Localization service is disabled
-[2016.03.30-17.46.42:028][  0]LogConsoleResponse:Display: 
-[2016.03.30-17.46.42:156][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.30-17.46.42:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.01s
-[2016.03.30-17.46.42:244][  0]SourceControl: Info Source control is disabled
-[2016.03.30-17.46.42:244][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.30-17.46.42:244][  0]LightingResults: New page: Lighting Build
-[2016.03.30-17.46.42:249][  0]MapCheck: New page: Map Check
-[2016.03.30-17.46.42:249][  0]LightingResults: New page: Lighting Build
-[2016.03.30-17.46.42:259][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BB814B6A0
-[2016.03.30-17.46.42:680][  0]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-17.46.42:684][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.30-17.46.42:685][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.30-17.46.42:786][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.815ms to complete.
-[2016.03.30-17.46.42:786][  0]LogFileHelpers: Loading map 'MainMenu' took 0.542
-[2016.03.30-17.46.42:908][  0]LogCollectionManager: Loaded 0 collections in 0.003906 seconds
-[2016.03.30-17.46.42:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Collections/' took 0.01s
-[2016.03.30-17.46.42:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Developers/SAA/Collections/' took 0.01s
-[2016.03.30-17.46.42:950][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Collections/' took 0.01s
-[2016.03.30-17.46.42:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.03.30-17.46.42:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 1893 classes and 338 folders.
-[2016.03.30-17.46.42:970][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.03.30-17.46.43:049][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.03.30-17.46.43:056][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2016.03.30-17.46.43:113][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.30-17.46.43:118][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.30-17.46.43:140][  0]LogLoad: Full Startup: 10.88 seconds (BP compile: 0.12 seconds)
-[2016.03.30-17.46.43:480][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
-[2016.03.30-17.46.43:574][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.03.30-17.46.43:726][  0]LogRenderer: Reallocating scene render targets to support 1308x540 (Frame:2).
-[2016.03.30-17.46.43:813][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.32s
-[2016.03.30-17.46.44:828][  4]LogAssetRegistry: Asset discovery search completed in 7.1842 seconds
-[2016.03.30-17.46.44:828][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.03.30-17.46.44:828][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.03.30-17.47.19:541][547]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.30-17.47.19:883][547]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
-[2016.03.30-17.47.46:128][828]LogRenderer: Reallocating scene render targets to support 1308x692 (Frame:820).
-[2016.03.30-17.49.13:428][587]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.49.13:490][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.49.13:490][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
-[2016.03.30-17.49.13:490][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
-[2016.03.30-17.49.13:490][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
-[2016.03.30-17.49.13:550][587]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF8B76480
-[2016.03.30-17.49.13:580][587]BlueprintEditorCompileResults: Info [0161.32] Compile of Decoration1 successful! [in 152 ms]
-[2016.03.30-17.49.38:773][980]LogRenderer: Reallocating scene render targets to support 1392x920 (Frame:3862).
-[2016.03.30-17.50.46:963][198]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.50.47:013][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.50.47:013][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
-[2016.03.30-17.50.47:013][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_4) Not registered. Aborting.
-[2016.03.30-17.50.47:013][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_5) Not registered. Aborting.
-[2016.03.30-17.50.47:045][198]BlueprintEditorCompileResults: Info [0254.78] Compile of Decoration1 successful! [in 81 ms]
-[2016.03.30-17.51.05:040][274]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.51.05:091][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.51.05:126][274]BlueprintEditorCompileResults: Info [0272.87] Compile of Decoration1 successful! [in 86 ms]
-[2016.03.30-17.52.03:367][571]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.52.03:415][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.52.03:415][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_6) Not registered. Aborting.
-[2016.03.30-17.52.03:415][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_7) Not registered. Aborting.
-[2016.03.30-17.52.03:415][571]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_8) Not registered. Aborting.
-[2016.03.30-17.52.03:446][571]BlueprintEditorCompileResults: Info [0331.18] Compile of Decoration1 successful! [in 79 ms]
-[2016.03.30-17.53.09:070][475]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.53.09:120][475]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.53.09:150][475]BlueprintEditorCompileResults: Info [0396.89] Compile of Decoration1 successful! [in 79 ms]
-[2016.03.30-17.53.36:543][111]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.53.36:591][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.53.36:622][111]BlueprintEditorCompileResults: Info [0424.36] Compile of Decoration1 successful! [in 78 ms]
-[2016.03.30-17.53.50:350][927]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.53.50:398][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.53.50:430][927]BlueprintEditorCompileResults: Info [0438.17] Compile of Decoration1 successful! [in 80 ms]
-[2016.03.30-17.54.02:780][664]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.54.02:827][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.54.02:858][664]BlueprintEditorCompileResults: Info [0450.60] Compile of Decoration1 successful! [in 78 ms]
-[2016.03.30-17.54.13:950][324]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.54.14:020][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.54.14:064][324]BlueprintEditorCompileResults: Info [0461.80] Compile of Decoration1 successful! [in 113 ms]
-[2016.03.30-17.54.25:574][ 11]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.54.25:622][ 11]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.54.25:654][ 11]BlueprintEditorCompileResults: Info [0473.39] Compile of Decoration1 successful! [in 79 ms]
-[2016.03.30-17.54.41:280][944]BlueprintLog: New page: Compile Decoration1
-[2016.03.30-17.54.41:328][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.54.41:360][944]BlueprintEditorCompileResults: Info [0489.10] Compile of Decoration1 successful! [in 79 ms]
-[2016.03.30-17.54.59:424][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.54.59:424][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_9) Not registered. Aborting.
-[2016.03.30-17.54.59:424][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_10) Not registered. Aborting.
-[2016.03.30-17.54.59:424][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_11) Not registered. Aborting.
-[2016.03.30-17.54.59:529][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/BP/Decoration1" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Decoration1.uasset" SILENT=true
-[2016.03.30-17.54.59:607][932]LogSavePackage: Save=41.646191ms
-[2016.03.30-17.54.59:607][932]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration185FECCF24FC521CA483E13A0CB414F77.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Decoration1.uasset'
-[2016.03.30-17.54.59:610][932]LogSavePackage: Total save time: 79.636469ms
-[2016.03.30-17.54.59:610][932]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/Decoration1.uasset
-[2016.03.30-17.54.59:671][932]LogSavePackage: Save=11.045328ms
-[2016.03.30-17.54.59:671][932]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst40547E194A3CA78D8ED8DEBAB998C214.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
-[2016.03.30-17.54.59:674][932]LogSavePackage: Total save time: 31.664178ms
-[2016.03.30-17.54.59:674][932]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
-[2016.03.30-17.55.36:759][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.55.36:759][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-17.55.36:759][881]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 11:55:36 AM)
-[2016.03.30-17.55.36:759][881]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-17.55.36:763][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003978s)
-[2016.03.30-17.55.36:764][881]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-17.55.36:764][881]LogPlayLevel: PIE: World Init took: (0.000635s)
-[2016.03.30-17.55.36:764][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004860s)
-[2016.03.30-17.55.36:764][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-17.55.36:764][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_12) Not registered. Aborting.
-[2016.03.30-17.55.36:764][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_13) Not registered. Aborting.
-[2016.03.30-17.55.36:764][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_14) Not registered. Aborting.
-[2016.03.30-17.55.36:790][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF071A340
-[2016.03.30-17.55.36:799][881]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-17.55.36:812][881]LogInit: FAudioDevice initialized.
-[2016.03.30-17.55.36:858][881]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-17.55.36:861][881]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-14.55.36
-[2016.03.30-17.55.36:861][881]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.55.36:861][881]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.55.36:861][881]LogWorld: Bringing up level for play took: 0.002179
-[2016.03.30-17.55.36:872][881]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-17.55.36:873][881]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-17.55.36:873][881]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-17.55.36:875][881]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.066
-[2016.03.30-17.55.36:875][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.55.39:079][981]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.55.39:131][981]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.55.39:131][981]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-17.55.39:131][981]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.55.39:160][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF185BBA0
-[2016.03.30-17.55.39:213][982]LogPlayLevel:Display: Destroying online subsystem :Context_11
-[2016.03.30-17.55.39:213][982]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.55.54:278][703]BlueprintLog: New page: Compile RunCharacter
-[2016.03.30-17.55.54:636][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.30-17.55.54:723][703]BlueprintEditorCompileResults: Info [0562.46] Compile of RunCharacter successful! [in 444 ms]
-[2016.03.30-17.55.57:520][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.30-17.55.57:879][863]LogSavePackage: Save=232.672806ms
-[2016.03.30-17.55.57:879][863]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RunCharacter3B82AC00439E74D69DAD619BE3BA1508.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset'
-[2016.03.30-17.55.57:882][863]LogSavePackage: Total save time: 260.071822ms
-[2016.03.30-17.55.57:882][863]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Blueprints/RunCharacter.uasset
-[2016.03.30-17.55.59:588][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.55.59:588][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-17.55.59:588][945]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 11:55:59 AM)
-[2016.03.30-17.55.59:588][945]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-17.55.59:594][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005716s)
-[2016.03.30-17.55.59:594][945]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-17.55.59:594][945]LogPlayLevel: PIE: World Init took: (0.000810s)
-[2016.03.30-17.55.59:595][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.006806s)
-[2016.03.30-17.55.59:595][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.30-17.55.59:638][945]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-17.55.59:651][945]LogInit: FAudioDevice initialized.
-[2016.03.30-17.55.59:681][945]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-17.55.59:684][945]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-14.55.59
-[2016.03.30-17.55.59:684][945]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.55.59:684][945]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.55.59:684][945]LogWorld: Bringing up level for play took: 0.002099
-[2016.03.30-17.55.59:695][945]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-17.55.59:696][945]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-17.55.59:696][945]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-17.55.59:698][945]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.757
-[2016.03.30-17.55.59:698][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.56.26:417][237]LogInit: WinSock: I am HP (192.168.0.11:0)
-[2016.03.30-17.56.27:805][304]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.56.27:853][304]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.56.27:853][304]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-17.56.27:854][304]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.56.27:885][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1B89E40
-[2016.03.30-17.56.27:919][306]LogPlayLevel:Display: Destroying online subsystem :Context_13
-[2016.03.30-17.56.27:919][306]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.57.08:933][344]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-17.57.09:027][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.30-17.57.09:075][344]BlueprintEditorCompileResults: Info [0636.81] Compile of MP_ServerBrowser successful! [in 142 ms]
-[2016.03.30-17.57.26:890][409]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-17.57.27:019][409]BlueprintEditorCompileResults: Info [0654.76] Compile of MP_ServerBrowser successful! [in 129 ms]
-[2016.03.30-17.57.28:582][479]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.57.28:582][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-17.57.28:582][479]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 11:57:28 AM)
-[2016.03.30-17.57.28:583][479]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-17.57.28:587][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003996s)
-[2016.03.30-17.57.28:587][479]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-17.57.28:587][479]LogPlayLevel: PIE: World Init took: (0.000777s)
-[2016.03.30-17.57.28:588][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004999s)
-[2016.03.30-17.57.28:627][479]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-17.57.28:641][479]LogInit: FAudioDevice initialized.
-[2016.03.30-17.57.28:671][479]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-17.57.28:674][479]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-14.57.28
-[2016.03.30-17.57.28:674][479]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.57.28:674][479]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-17.57.28:675][479]LogWorld: Bringing up level for play took: 0.002371
-[2016.03.30-17.57.28:686][479]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-17.57.28:687][479]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-17.57.28:687][479]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-17.57.28:688][479]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.252
-[2016.03.30-17.57.28:688][479]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.57.34:600][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.57.34:644][758]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.57.34:645][758]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-17.57.34:645][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-17.57.34:677][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C12270F40
-[2016.03.30-17.57.34:711][760]LogPlayLevel:Display: Destroying online subsystem :Context_16
-[2016.03.30-17.57.34:711][760]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-17.57.43:017][211]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-17.57.43:150][211]BlueprintEditorCompileResults: Info [0670.89] Compile of MP_ServerBrowser successful! [in 132 ms]
-[2016.03.30-17.58.12:116][794]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.05:199][773]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.05:560][788]Cmd: TRANSACTION UNDO
-[2016.03.30-17.59.05:560][788]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.06:010][808]Cmd: TRANSACTION UNDO
-[2016.03.30-17.59.06:010][808]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.12:008][151]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-17.59.12:153][151]BlueprintEditorCompileResults: Info [0759.89] Compile of MP_ServerBrowser successful! [in 144 ms]
-[2016.03.30-17.59.38:987][697]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-17.59.39:118][697]BlueprintEditorCompileResults: Info [0786.86] Compile of MP_ServerBrowser successful! [in 130 ms]
-[2016.03.30-17.59.40:373][772]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.40:652][784]LogEditorTransaction: Undo Edit Image
-[2016.03.30-17.59.42:970][915]LogEditorTransaction: Undo Edit Specified Color
-[2016.03.30-17.59.43:833][963]LogEditorTransaction: Undo Edit Specified Color
-[2016.03.30-18.01.10:615][114]Cmd: TRANSACTION UNDO
-[2016.03.30-18.01.10:615][114]LogEditorTransaction: Undo Move Widget
-[2016.03.30-18.01.11:022][130]Cmd: TRANSACTION UNDO
-[2016.03.30-18.01.11:022][130]LogEditorTransaction: Undo Move Widget
-[2016.03.30-18.01.17:743][525]Cmd: TRANSACTION UNDO
-[2016.03.30-18.01.17:744][525]LogEditorTransaction: Undo Move Widget
-[2016.03.30-18.01.20:116][655]Cmd: TRANSACTION UNDO
-[2016.03.30-18.01.20:116][655]LogEditorTransaction: Undo Edit Brush Color
-[2016.03.30-18.02.37:843][272]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-18.02.38:016][272]BlueprintEditorCompileResults: Info [0965.76] Compile of MP_ServerBrowser successful! [in 173 ms]
-[2016.03.30-18.02.39:249][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.02.39:249][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-18.02.39:249][327]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 12:02:39 PM)
-[2016.03.30-18.02.39:249][327]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-18.02.39:254][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004886s)
-[2016.03.30-18.02.39:254][327]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-18.02.39:255][327]LogPlayLevel: PIE: World Init took: (0.000725s)
-[2016.03.30-18.02.39:255][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005852s)
-[2016.03.30-18.02.39:301][327]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-18.02.39:316][327]LogInit: FAudioDevice initialized.
-[2016.03.30-18.02.39:346][327]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-18.02.39:348][327]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-15.02.39
-[2016.03.30-18.02.39:349][327]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.02.39:349][327]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.02.39:349][327]LogWorld: Bringing up level for play took: 0.002047
-[2016.03.30-18.02.39:360][327]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-18.02.39:361][327]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-18.02.39:361][327]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-18.02.39:362][327]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.422
-[2016.03.30-18.02.39:362][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.02.44:855][586]LogOnline:Warning: NULL: Ignoring game search request while one is pending
-[2016.03.30-18.02.45:437][614]LogOnline:Warning: NULL: Ignoring game search request while one is pending
-[2016.03.30-18.02.50:094][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.02.50:137][840]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.02.50:137][840]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-18.02.50:138][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.02.50:188][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C0F8F3B00
-[2016.03.30-18.02.50:205][842]LogPlayLevel:Display: Destroying online subsystem :Context_17
-[2016.03.30-18.02.50:205][842]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.03.02:285][547]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-18.03.02:418][547]BlueprintEditorCompileResults: Info [0990.16] Compile of MP_ServerBrowser successful! [in 133 ms]
-[2016.03.30-18.03.04:404][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.04:404][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-18.03.04:404][650]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 12:03:04 PM)
-[2016.03.30-18.03.04:404][650]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-18.03.04:408][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003854s)
-[2016.03.30-18.03.04:408][650]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-18.03.04:409][650]LogPlayLevel: PIE: World Init took: (0.000731s)
-[2016.03.30-18.03.04:409][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.004824s)
-[2016.03.30-18.03.04:447][650]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-18.03.04:460][650]LogInit: FAudioDevice initialized.
-[2016.03.30-18.03.04:495][650]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-18.03.04:498][650]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-15.03.04
-[2016.03.30-18.03.04:498][650]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.04:498][650]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.04:498][650]LogWorld: Bringing up level for play took: 0.002074
-[2016.03.30-18.03.04:509][650]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-18.03.04:510][650]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-18.03.04:510][650]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-18.03.04:511][650]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu -0.429
-[2016.03.30-18.03.04:511][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.09:838][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.09:887][901]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.03.09:888][901]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-18.03.09:888][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.09:921][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C1A523BA0
-[2016.03.30-18.03.09:939][902]LogPlayLevel:Display: Destroying online subsystem :Context_18
-[2016.03.30-18.03.09:939][902]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.03.18:088][370]BlueprintLog: New page: Compile MP_ServerBrowser
-[2016.03.30-18.03.18:225][370]BlueprintEditorCompileResults: Info [1005.96] Compile of MP_ServerBrowser successful! [in 136 ms]
-[2016.03.30-18.03.19:534][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.19:534][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.03.30-18.03.19:535][435]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 12:03:19 PM)
-[2016.03.30-18.03.19:535][435]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
-[2016.03.30-18.03.19:539][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004227s)
-[2016.03.30-18.03.19:540][435]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.30-18.03.19:540][435]LogPlayLevel: PIE: World Init took: (0.000755s)
-[2016.03.30-18.03.19:540][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005237s)
-[2016.03.30-18.03.19:579][435]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2016.03.30-18.03.19:592][435]LogInit: FAudioDevice initialized.
-[2016.03.30-18.03.19:625][435]LogWorld: Game class is 'MainMenuGamemode_C'
-[2016.03.30-18.03.19:627][435]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-15.03.19
-[2016.03.30-18.03.19:627][435]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.19:628][435]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.19:628][435]LogWorld: Bringing up level for play took: 0.002205
-[2016.03.30-18.03.19:639][435]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.30-18.03.19:640][435]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2016.03.30-18.03.19:640][435]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-18.03.19:641][435]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.701
-[2016.03.30-18.03.19:641][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.03.38:355][331]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve MapaCorrida.umap.
-[2016.03.30-18.03.38:448][331]LogPackageName: SearchForPackageOnDisk took   0.092s to resolve MapaCorrida.umap.
-[2016.03.30-18.03.38:448][331]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
-[2016.03.30-18.03.38:449][331]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
-[2016.03.30-18.03.38:481][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C1C78B420
-[2016.03.30-18.03.38:487][331]Cmd: MEM
-[2016.03.30-18.03.38:517][331]LogMemory: Platform Memory Stats for Windows
-[2016.03.30-18.03.38:517][331]LogMemory: Process Physical Memory: 1450.90 MB used, 1455.76 MB peak
-[2016.03.30-18.03.38:517][331]LogMemory: Process Virtual Memory: 2528.70 MB used, 2690.10 MB peak
-[2016.03.30-18.03.38:517][331]LogMemory: Physical Memory: 6300.67 MB used, 16316.02 MB total
-[2016.03.30-18.03.38:517][331]LogMemory: Virtual Memory: 3344.25 MB used, 134217728.00 MB total
-[2016.03.30-18.03.38:517][331]LogMemory: 
-[2016.03.30-18.03.38:517][331]Allocator Stats for TBB: (not implemented)
-[2016.03.30-18.03.38:930][331]LogAIModule: Creating AISystem for world MapaCorrida
-[2016.03.30-18.03.38:930][331]LogWorld: Game class is 'RunGameMode_C'
-[2016.03.30-18.03.38:931][331]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.03.30-18.03.38:931][331]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2016.03.30-18.03.38:935][331]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-15.03.38
-[2016.03.30-18.03.38:935][331]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.38:935][331]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
-[2016.03.30-18.03.38:935][331]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.30-18.03.38:936][331]LogWorld: Bringing up level for play took: 0.004011
-[2016.03.30-18.03.38:936][331]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.03.30-18.03.38:936][331]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.30-18.04.03:300][399]LogOnline:Warning: NULL: No game present to leave for session (Game)
-[2016.03.30-18.04.03:300][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.04.03:353][399]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.04.03:353][399]LogPlayLevel:Display: Shutting down PIE online subsystems
-[2016.03.30-18.04.03:354][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
-[2016.03.30-18.04.03:386][399]LogExit: GameNetDriver None shut down
-[2016.03.30-18.04.03:405][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C17CAD300
-[2016.03.30-18.04.03:405][400]LogPlayLevel:Display: Destroying online subsystem :Context_19
-[2016.03.30-18.04.03:405][400]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.30-18.04.06:584][519]LogSavePackage: Save=71.944069ms
-[2016.03.30-18.04.06:584][519]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/MP_ServerBrowserF3DC6F9F40E86A747EB9B78EF614C5DA.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/MenuTemporario/Multiplayer/MP_ServerBrowser.uasset'
-[2016.03.30-18.04.06:587][519]LogSavePackage: Total save time: 116.126612ms
-[2016.03.30-18.04.06:587][519]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/MenuTemporario/Multiplayer/MP_ServerBrowser.uasset
-[2016.03.30-18.04.06:616][519]LogSavePackage: Save=1.640952ms
-[2016.03.30-18.04.06:616][519]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst594B20C74845CE8E81445AB55967C3A5.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
-[2016.03.30-18.04.06:618][519]LogSavePackage: Total save time: 22.022508ms
-[2016.03.30-18.04.06:618][519]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
-[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_15) Not registered. Aborting.
-[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_16) Not registered. Aborting.
-[2016.03.30-18.09.33:663][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_17) Not registered. Aborting.
-[2016.03.30-18.09.33:812][ 73]LogSavePackage: Save=10.580590ms
-[2016.03.30-18.09.33:812][ 73]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP6EC58E34498CB5472CB6EEB06E4268A2.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
-[2016.03.30-18.09.33:815][ 73]LogSavePackage: Total save time: 17.047510ms
-[2016.03.30-18.09.33:815][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
-[2016.03.30-18.11.31:864][147]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_18) Not registered. Aborting.
-[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_19) Not registered. Aborting.
-[2016.03.30-18.11.31:918][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_20) Not registered. Aborting.
-[2016.03.30-18.11.31:953][147]BlueprintEditorCompileResults: Info [1499.69] Compile of RandomSpawnObstacles_BP successful! [in 88 ms]
-[2016.03.30-18.11.48:277][122]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.11.48:367][122]BlueprintEditorCompileResults: Info [1516.11] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
-[2016.03.30-18.12.20:602][ 47]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.12.20:676][ 47]BlueprintEditorCompileResults: Info [1548.42] Compile of RandomSpawnObstacles_BP successful! [in 74 ms]
-[2016.03.30-18.12.50:397][815]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.12.50:493][815]BlueprintEditorCompileResults: Info [1578.23] Compile of RandomSpawnObstacles_BP successful! [in 95 ms]
-[2016.03.30-18.13.06:861][782]LogEditorTransaction: Undo Move Node
-[2016.03.30-18.13.07:054][793]LogEditorTransaction: Undo Add Node
-[2016.03.30-18.13.07:331][801]LogEditorTransaction: Undo Move Node
-[2016.03.30-18.13.07:698][820]LogEditorTransaction: Undo Add Component Nodes
-[2016.03.30-18.13.07:914][832]LogEditorTransaction: Undo Rename Function
-[2016.03.30-18.13.08:172][847]LogEditorTransaction: Undo Add New Function
-[2016.03.30-18.13.08:395][860]LogEditorTransaction: Undo Set actor scale
-[2016.03.30-18.13.08:685][877]LogEditorTransaction: Undo Set actor scale
-[2016.03.30-18.13.08:940][892]LogEditorTransaction: Undo Set actor scale
-[2016.03.30-18.13.09:212][908]LogEditorTransaction: Undo Set actor scale
-[2016.03.30-18.13.09:436][921]LogEditorTransaction: Undo Make New Scene Root
-[2016.03.30-18.13.09:692][936]LogEditorTransaction: Undo Add Component
-[2016.03.30-18.13.25:518][874]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.13.25:608][874]BlueprintEditorCompileResults: Info [1613.35] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
-[2016.03.30-18.14.31:227][768]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.14.31:304][768]BlueprintEditorCompileResults: Info [1679.04] Compile of RandomSpawnObstacles_BP successful! [in 77 ms]
-[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106.EdGraphPin_41356) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41293).  Import failed...
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_41356''
-[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41395) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41294).  Import failed...
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41395''
-[2016.03.30-18.14.59:863][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3155 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3155.EdGraphPin_41434) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41295).  Import failed...
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3155.EdGraphPin_41434''
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_AddComponent_68.EdGraphPin_41273) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3081.EdGraphPin_41296).  Import failed...
-[2016.03.30-18.14.59:863][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_AddComponent_68.EdGraphPin_41273''
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41310) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41323).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41310''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41392) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41324).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41392''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3109.EdGraphPin_41393) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41325).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3109.EdGraphPin_41393''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41419) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3083.EdGraphPin_41326).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41419''
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41309) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41338).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41309''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41498) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41339).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41498''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41380) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41340).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41380''
-[2016.03.30-18.14.59:864][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3106.EdGraphPin_41355) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3084.EdGraphPin_41341).  Import failed...
-[2016.03.30-18.14.59:864][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3106.EdGraphPin_41355''
-[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41499) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106.EdGraphPin_41353).  Import failed...
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41499''
-[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41382) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3106.EdGraphPin_41354).  Import failed...
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41382''
-[2016.03.30-18.14.59:865][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_40
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41381) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3195.EdGraphPin_41370).  Import failed...
-[2016.03.30-18.14.59:865][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_40.EdGraphPin_41381''
-[2016.03.30-18.14.59:866][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
-[2016.03.30-18.14.59:866][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41421) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3109.EdGraphPin_41394).  Import failed...
-[2016.03.30-18.14.59:866][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41421''
-[2016.03.30-18.14.59:866][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_39
-[2016.03.30-18.14.59:866][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41420) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3157.EdGraphPin_41409).  Import failed...
-[2016.03.30-18.14.59:866][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_39.EdGraphPin_41420''
-[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156.EdGraphPin_41447) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41431).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3156.EdGraphPin_41447''
-[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3156.EdGraphPin_41448) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41432).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3156.EdGraphPin_41448''
-[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41475) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3155.EdGraphPin_41433).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41475''
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CallFunction_3082.EdGraphPin_41311) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156.EdGraphPin_41446).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3082.EdGraphPin_41311''
-[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41473) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3156.EdGraphPin_41449).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41473''
-[2016.03.30-18.14.59:867][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_38
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41474) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3108.EdGraphPin_41463).  Import failed...
-[2016.03.30-18.14.59:867][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_38.EdGraphPin_41474''
-[2016.03.30-18.14.59:868][302]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37 or K2Node_CommutativeAssociativeBinaryOperator /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CommutativeAssociativeBinaryOperator_37
-[2016.03.30-18.14.59:868][302]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Track/BP_TrackSpawn.BP_TrackSpawn:SpawnPedra.K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41497) from referencer (EdGraphPin /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:AddObstacle.K2Node_CallFunction_3110.EdGraphPin_41487).  Import failed...
-[2016.03.30-18.14.59:868][302]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_37.EdGraphPin_41497''
-[2016.03.30-18.15.58:663][824]LogEditorTransaction: Undo Move Node
-[2016.03.30-18.16.40:428][317]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.16.44:981][586]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_21) Not registered. Aborting.
-[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_22) Not registered. Aborting.
-[2016.03.30-18.16.45:042][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_23) Not registered. Aborting.
-[2016.03.30-18.16.45:087][586]BlueprintEditorCompileResults: Info [1812.83] Compile of RandomSpawnObstacles_BP successful! [in 105 ms]
-[2016.03.30-18.17.10:922][136]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.17.11:005][136]BlueprintEditorCompileResults: Info [1838.74] Compile of RandomSpawnObstacles_BP successful! [in 83 ms]
-[2016.03.30-18.17.25:248][982]LogSavePackage: Save=1.768632ms
-[2016.03.30-18.17.25:248][982]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst5039F12E483B40A8E8761E879C4FB7D3.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
-[2016.03.30-18.17.25:250][982]LogSavePackage: Total save time: 27.793963ms
-[2016.03.30-18.17.25:250][982]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
-[2016.03.30-18.17.25:312][982]LogSavePackage: Save=31.167828ms
-[2016.03.30-18.17.25:312][982]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP6A707BD4417FAFB625FBAA9C2FE4CC8E.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
-[2016.03.30-18.17.25:316][982]LogSavePackage: Total save time: 57.540476ms
-[2016.03.30-18.17.25:316][982]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
-[2016.03.30-18.18.42:613][576]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.18.48:228][909]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.18.48:320][909]BlueprintEditorCompileResults: Info [1936.06] Compile of RandomSpawnObstacles_BP successful! [in 91 ms]
-[2016.03.30-18.19.51:330][646]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.040
-[2016.03.30-18.19.51:336][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/BP/RandomSpawnObstacles_BP] ([1] browsable assets)...
-[2016.03.30-18.19.51:336][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/BP/RandomSpawnObstacles_BP]
-[2016.03.30-18.19.51:404][646]LogSavePackage: Save=42.689800ms
-[2016.03.30-18.19.51:404][646]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP_Auto147DEA2CF482D1B38C3A78FA3DED4309B.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto1.uasset'
-[2016.03.30-18.19.51:406][646]LogSavePackage: Total save time: 68.527095ms
-[2016.03.30-18.19.51:406][646]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto1.uasset
-[2016.03.30-18.19.51:406][646]LogFileHelpers: Auto-saving content packages took 0.075
-[2016.03.30-18.20.49:968][160]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.20.49:979][160]LogBlueprint:Error: [compiler RandomSpawnObstacles_BP] Error Unknown template referenced by 'Add Component
-Target is Actor' for  Add Component 
-[2016.03.30-18.20.50:097][160]LogBlueprint:Warning: [compiler RandomSpawnObstacles_BP] Warning [2057.84] Compile of RandomSpawnObstacles_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms]
-[2016.03.30-18.20.50:097][160]BlueprintEditorCompileResults:Error: Error Unknown template referenced by 'Add Component
-Target is Actor' for  Add Component 
-[2016.03.30-18.20.50:097][160]BlueprintEditorCompileResults:Warning: Warning [2057.84] Compile of RandomSpawnObstacles_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms]
-[2016.03.30-18.21.08:508][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
-[2016.03.30-18.21.08:508][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_24) Not registered. Aborting.
-[2016.03.30-18.21.08:509][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_25) Not registered. Aborting.
-[2016.03.30-18.21.08:509][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_26) Not registered. Aborting.
-[2016.03.30-18.21.08:642][ 42]LogSavePackage: Save=40.288925ms
-[2016.03.30-18.21.08:642][ 42]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP511ADE1A4888FAC48723BE9DC4AD35E8.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
-[2016.03.30-18.21.08:645][ 42]LogSavePackage: Total save time: 64.587910ms
-[2016.03.30-18.21.08:645][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
-[2016.03.30-18.21.33:790][534]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.21.41:086][967]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.21.41:173][967]BlueprintEditorCompileResults: Info [2108.91] Compile of RandomSpawnObstacles_BP successful! [in 86 ms]
-[2016.03.30-18.21.51:858][597]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.21.56:077][846]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.21.56:162][846]BlueprintEditorCompileResults: Info [2123.90] Compile of RandomSpawnObstacles_BP successful! [in 85 ms]
-[2016.03.30-18.22.07:505][524]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.22.07:598][524]BlueprintEditorCompileResults: Info [2135.34] Compile of RandomSpawnObstacles_BP successful! [in 92 ms]
-[2016.03.30-18.22.43:409][636]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.22.47:991][907]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.22.48:081][907]BlueprintEditorCompileResults: Info [2175.82] Compile of RandomSpawnObstacles_BP successful! [in 89 ms]
-[2016.03.30-18.25.10:627][347]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.25.10:725][347]BlueprintEditorCompileResults: Info [2318.46] Compile of RandomSpawnObstacles_BP successful! [in 97 ms]
-[2016.03.30-18.25.20:762][947]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.25.20:858][947]BlueprintEditorCompileResults: Info [2328.60] Compile of RandomSpawnObstacles_BP successful! [in 96 ms]
-[2016.03.30-18.25.44:265][319]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.25.44:366][319]BlueprintEditorCompileResults: Info [2352.10] Compile of RandomSpawnObstacles_BP successful! [in 100 ms]
-[2016.03.30-18.27.19:282][980]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.27.19:371][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1B88A40
-[2016.03.30-18.27.19:372][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1B8A7A0
-[2016.03.30-18.27.19:381][980]BlueprintEditorCompileResults: Info [2447.12] Compile of RandomSpawnObstacles_BP successful! [in 98 ms]
-[2016.03.30-18.27.30:136][625]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowUp.K2Node_CallFunction_4669 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowDown.K2Node_CallFunction_4669
-[2016.03.30-18.27.30:136][625]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowUp.K2Node_CallFunction_4669 or K2Node_CallFunction /Game/MyAssets/BP/RandomSpawnObstacles_BP.RandomSpawnObstacles_BP:Add ArrowDown.K2Node_CallFunction_4669
-[2016.03.30-18.27.58:965][353]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.27.59:065][353]BlueprintEditorCompileResults: Info [2486.80] Compile of RandomSpawnObstacles_BP successful! [in 99 ms]
-[2016.03.30-18.28.42:405][876]LogEditorTransaction: Undo Make New Scene Root
-[2016.03.30-18.29.08:409][393]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.29.08:432][393]LogWorld: --- Actors Currently in /Engine/Transient.World_13:PersistentLevel ---
-[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.WorldSettings
-[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.Brush_14
-[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.DefaultPhysicsVolume_16
-[2016.03.30-18.29.08:432][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.ParticleEventManager_20
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:432][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:433][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   NONE
-[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_706
-[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.ArrowUp_C_184
-[2016.03.30-18.29.08:434][393]LogWorld:   /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_0
-[2016.03.30-18.30.04:073][393]LogOutputDevice:Warning: === Handled error: ===
-
-Ensure condition failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1234]
-Could not remove actor /Engine/Transient.World_13:PersistentLevel.RandomSpawnObstacles_BP_C_19 from world (check level is /Engine/Transient.World_13:PersistentLevel)
-Stack: 
-UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:175]
-UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:276]
-UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\misc\outputdevice.cpp:385]
-UE4Editor-Engine.dll!UWorld::RemoveActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\world.cpp:1234]
-UE4Editor-Engine.dll!UWorld::DestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:621]
-UE4Editor-Engine.dll!UWorld::EditorDestroyActor() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\engine\private\levelactor.cpp:471]
-UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1333]
-UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1141]
-UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:519]
-UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:619]
-UE4Editor-UnrealEd.dll!FKismetEditorUtilities::CompileBlueprint() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\unrealed\private\kismet2\kismet2.cpp:790]
-UE4Editor-Kismet.dll!FBlueprintEditor::Compile() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\editor\kismet\private\blueprinteditor.cpp:3110]
-UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
-UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:387]
-UE4Editor-Slate.dll!FUICommandList::ExecuteAction() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:87]
-UE4Editor-Slate.dll!SToolBarButtonBlock::OnClicked() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\multibox\stoolbarbuttonblock.cpp:296]
-UE4Editor-Slate.dll!TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64>::operator()<>() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstanceinterface_variadics.h:161]
-UE4Editor-Slate.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,TMemberFunctionCaller<SToolBarButtonBlock,FReply (__cdecl SToolBarButtonBlock::*)(void) __ptr64> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\tuple.h:113]
-UE4Editor-Slate.dll!TBaseSPMethodDelegateInstance<0,SToolBarButtonBlock,0,FReply __cdecl(void)>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
-UE4Editor-Slate.dll!TBaseDelegate<FReply>::Execute() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\public\delegates\delegatesignatureimpl_variadics.inl:440]
-UE4Editor-Slate.dll!SButton::OnMouseButtonUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\widgets\input\sbutton.cpp:236]
-UE4Editor-Slate.dll!<lambda_4ba5b0c116ad939f50a9b616659f063a>::operator()() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4276]
-UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_4ba5b0c116ad939f50a9b616659f063a> >() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:214]
-UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4266]
-UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4663]
-UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4641]
-UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1416]
-UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:1721]
-UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:719]
-UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsapplication.cpp:641]
-USER32.dll
-USER32.dll
-UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:884]
-UE4Editor.exe!FEngineLoop::Tick() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launchengineloop.cpp:2391]
-UE4Editor.exe!GuardedMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\launch.cpp:142]
-UE4Editor.exe!GuardedMainWrapper() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
-UE4Editor.exe!WinMain() [d:\buildfarm\buildmachine_++depot+ue4-releases+4.10\engine\source\runtime\launch\private\windows\launchwindows.cpp:200]
-UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
-KERNEL32.DLL
-ntdll.dll
-ntdll.dll
-
-[2016.03.30-18.30.22:692][393]BlueprintEditorCompileResults: Info [2630.43] Compile of RandomSpawnObstacles_BP successful! [in 74,282 ms]
-[2016.03.30-18.30.33:190][425]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/MainMenu' took 0.033
-[2016.03.30-18.30.33:197][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/Materials/Decoration1_material_Inst] ([1] browsable assets)...
-[2016.03.30-18.30.33:197][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/Materials/Decoration1_material_Inst]
-[2016.03.30-18.30.33:229][425]LogSavePackage: Save=2.597114ms
-[2016.03.30-18.30.33:229][425]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst_Auto284A26E644FD6B7849911328A4556E2AD.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/Materials/Decoration1_material_Inst_Auto2.uasset'
-[2016.03.30-18.30.33:231][425]LogSavePackage: Total save time: 32.579694ms
-[2016.03.30-18.30.33:231][425]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/Materials/Decoration1_material_Inst_Auto2.uasset
-[2016.03.30-18.30.33:237][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyAssets/BP/RandomSpawnObstacles_BP] ([1] browsable assets)...
-[2016.03.30-18.30.33:237][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyAssets/BP/RandomSpawnObstacles_BP]
-[2016.03.30-18.30.33:358][425]LogSavePackage: Save=101.218460ms
-[2016.03.30-18.30.33:358][425]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BP_Auto27CBEF7C144464862DF6CCF9FF49E9D30.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto2.uasset'
-[2016.03.30-18.30.33:360][425]LogSavePackage: Total save time: 122.164100ms
-[2016.03.30-18.30.33:360][425]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Autosaves/Game/MyAssets/BP/RandomSpawnObstacles_BP_Auto2.uasset
-[2016.03.30-18.30.33:360][425]LogFileHelpers: Auto-saving content packages took 0.169
-[2016.03.30-18.31.27:666][961]LogSavePackage: Save=1.672564ms
-[2016.03.30-18.31.27:666][961]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Decoration1_material_Inst7A5570934C982DEF84024C96322B9488.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset'
-[2016.03.30-18.31.27:670][961]LogSavePackage: Total save time: 27.675312ms
-[2016.03.30-18.31.27:670][961]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Materials/Decoration1_material_Inst.uasset
-[2016.03.30-18.31.27:761][961]LogSavePackage: Save=66.045753ms
-[2016.03.30-18.31.27:761][961]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BPBBF31CB3470918F2C64EBBB42BE6CE8B.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
-[2016.03.30-18.31.27:764][961]LogSavePackage: Total save time: 85.693251ms
-[2016.03.30-18.31.27:764][961]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
-[2016.03.30-18.31.31:837][166]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.31.31:939][166]BlueprintEditorCompileResults: Info [2699.68] Compile of RandomSpawnObstacles_BP successful! [in 101 ms]
-[2016.03.30-18.31.52:611][400]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2016.03.30-18.32.37:069][ 31]BlueprintLog: New page: Compile RandomSpawnObstacles_BP
-[2016.03.30-18.32.37:176][ 31]BlueprintEditorCompileResults: Info [2764.91] Compile of RandomSpawnObstacles_BP successful! [in 105 ms]
-[2016.03.30-18.32.56:908][119]LogSavePackage: Save=72.524994ms
-[2016.03.30-18.32.56:908][119]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/RandomSpawnObstacles_BPBA6B5BD3499FD843BF9D0CB23EAAE173.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset'
-[2016.03.30-18.32.56:910][119]LogSavePackage: Total save time: 97.258743ms
-[2016.03.30-18.32.56:910][119]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/BP/RandomSpawnObstacles_BP.uasset
-[2016.03.30-18.32.58:555][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.03.30-18.32.58:610][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.03.30-18.32.58:713][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.03.30-18.32.58:767][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.03.30-18.32.58:829][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.03.30-18.32.59:124][179]Cmd: QUIT_EDITOR
-[2016.03.30-18.32.59:205][179]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.03.30-18.32.59:209][179]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.03.30-18.32.59:285][179]LogExit: Preparing to exit.
-[2016.03.30-18.33.00:452][179]LogExit: Editor shut down
-[2016.03.30-18.33.00:452][179]LogExit: Transaction tracking system shut down
-[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BA9D67A60
-[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC556F880
-[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC56BD800
-[2016.03.30-18.33.00:455][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BC52AE5C0
-[2016.03.30-18.33.00:456][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BE48D3920
-[2016.03.30-18.33.00:462][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF1DD8F40
-[2016.03.30-18.33.00:463][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C40A0E160
-[2016.03.30-18.33.00:464][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015C1D4B93A0
-[2016.03.30-18.33.00:464][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF0607240
-[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015B88FB8720
-[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015B8D62F2E0
-[2016.03.30-18.33.00:465][179]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000015BF09209A0
-[2016.03.30-18.33.00:665][179]LogExit: Object subsystem successfully closed.
-[2016.03.30-18.33.00:678][179]LogD3D11RHI: Shutdown
-[2016.03.30-18.33.00:678][179]LogD3D11RHI: CleanupD3DDevice
-[2016.03.30-18.33.00:822][179]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module SequencerWidgets (205)
-[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module CookingStats (204)
-[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module MaterialEditor (203)
-[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and abandoning module BlueprintGraph (202)
-[2016.03.30-18.33.00:849][179]LogModuleManager: Shutting down and ab
+[2016.03.31-02.37.15:699][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.31-02.37.16:215][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.31-02.37.16:333][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.31-02.37.16:382][  0]LogInit: FAudioDevice initialized.
+[2016.03.31-02.37.16:403][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/SAA/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.31-02.37.16:405][  0]LogInit: Texture streaming: Enabled
+[2016.03.31-02.37.16:458][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.31-02.37.16:458][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.31-02.37.16:458][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e6e58a904b162431bdc4319006156b95|d87a143c86174d7ea2ead77b8ac6e0d8|a54faa0c-de25-4ef6-94d5-27208093865c
+[2016.03.31-02.37.16:458][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.31-02.37.16:487][  0]LogInit: Transaction tracking system initialized
+[2016.03.31-02.37.16:845][  0]BlueprintLog: New page: Editor Load
+[2016.03.31-02.37.17:843][  0]LocalizationService: Info Localization service is disabled
+[2016.03.31-02.37.18:608][  0]LogConsoleResponse:Display: 
+[2016.03.31-02.37.22:865][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.31-02.37.23:806][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 0.01s
+[2016.03.31-02.37.24:183][  0]SourceControl: Info Source control is disabled
+[2016.03.31-02.37.24:183][  0]Cmd: MAP LOAD FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.31-02.37.24:184][  0]LightingResults: New page: Lighting Build
+[2016.03.31-02.37.24:188][  0]MapCheck: New page: Map Check
+[2016.03.31-02.37.24:188][  0]LightingResults: New page: Lighting Build
+[2016.03.31-02.37.24:200][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D798076A0
+[2016.03.31-02.37.28:607][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.31-02.37.28:714][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.31-02.37.28:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.31-02.37.28:793][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.226ms to complete.
+[2016.03.31-02.37.28:793][  0]LogFileHelpers: Loading map 'MainMenu' took 4.610
+[2016.03.31-02.37.29:564][  0]LogCollectionManager: Loaded 0 collections in 0.003695 seconds
+[2016.03.31-02.37.29:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Collections/' took 0.01s
+[2016.03.31-02.37.29:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Developers/SAA/Collections/' took 0.01s
+[2016.03.31-02.37.29:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/Collections/' took 0.01s
+[2016.03.31-02.37.29:606][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.03.31-02.37.29:613][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 1893 classes and 338 folders.
+[2016.03.31-02.37.29:621][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.31-02.37.32:166][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.03.31-02.37.32:228][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.31-02.37.32:641][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.31-02.37.32:646][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.31-02.37.32:668][  0]LogLoad: Full Startup: 94.10 seconds (BP compile: 0.52 seconds)
+[2016.03.31-02.37.33:008][  0]LogOcInput: OculusInput is initialized. Init status -3003. Runtime version: (Unable to load LibOVR)
+[2016.03.31-02.37.33:930][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.31-02.37.34:283][  0]LogRenderer: Reallocating scene render targets to support 1308x540 (Frame:2).
+[2016.03.31-02.37.34:384][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/' took 1.36s
+[2016.03.31-02.37.35:398][  4]LogAssetRegistry: Asset discovery search completed in 29.1737 seconds
+[2016.03.31-02.37.35:398][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.31-02.37.35:398][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.03.31-02.37.43:894][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.37.43:894][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.37.43:894][ 84]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 8:37:43 PM)
+[2016.03.31-02.37.43:894][ 84]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.31-02.37.43:898][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004113s)
+[2016.03.31-02.37.43:899][ 84]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.31-02.37.43:899][ 84]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2016.03.31-02.37.43:899][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.005053s)
+[2016.03.31-02.37.43:929][ 84]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.31-02.37.43:944][ 84]LogInit: FAudioDevice initialized.
+[2016.03.31-02.37.44:067][ 84]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.31-02.37.44:070][ 84]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-23.37.44
+[2016.03.31-02.37.44:070][ 84]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.44:070][ 84]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.44:070][ 84]LogWorld: Bringing up level for play took: 0.002033
+[2016.03.31-02.37.44:081][ 84]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.31-02.37.44:083][ 84]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.31-02.37.44:083][ 84]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.31-02.37.44:085][ 84]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 1.035
+[2016.03.31-02.37.44:085][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.37.50:039][359]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve MapaCorrida.umap.
+[2016.03.31-02.37.50:128][359]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve MapaCorrida.umap.
+[2016.03.31-02.37.50:128][359]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.31-02.37.50:128][359]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.31-02.37.50:140][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D0D3D8D60
+[2016.03.31-02.37.50:141][359]Cmd: MEM
+[2016.03.31-02.37.50:154][359]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-02.37.50:154][359]LogMemory: Process Physical Memory: 663.12 MB used, 670.92 MB peak
+[2016.03.31-02.37.50:154][359]LogMemory: Process Virtual Memory: 1166.56 MB used, 1175.48 MB peak
+[2016.03.31-02.37.50:154][359]LogMemory: Physical Memory: 5872.80 MB used, 16316.02 MB total
+[2016.03.31-02.37.50:154][359]LogMemory: Virtual Memory: 1924.12 MB used, 134217728.00 MB total
+[2016.03.31-02.37.50:154][359]LogMemory: 
+[2016.03.31-02.37.50:154][359]Allocator Stats for TBB: (not implemented)
+[2016.03.31-02.37.58:174][359]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.31-02.37.58:174][359]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.31-02.37.58:174][359]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.31-02.37.58:175][359]LogInit: WinSock: I am HP (192.168.0.11:0)
+[2016.03.31-02.37.58:175][359]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.03.31-02.37.58:180][359]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-23.37.58
+[2016.03.31-02.37.58:180][359]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.58:180][359]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.31-02.37.58:180][359]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.37.58:181][359]LogWorld: Bringing up level for play took: 0.005042
+[2016.03.31-02.37.58:181][359]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.31-02.37.58:181][359]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.31-02.38.57:841][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.31-02.38.57:841][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_0) Not registered. Aborting.
+[2016.03.31-02.38.57:841][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_1) Not registered. Aborting.
+[2016.03.31-02.38.57:841][921]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_2) Not registered. Aborting.
+[2016.03.31-02.39.06:315][263]LogOnline:Warning: NULL: No game present to leave for session (Game)
+[2016.03.31-02.39.06:316][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.39.06:417][263]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.31-02.39.06:417][263]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.03.31-02.39.06:417][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.39.06:438][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D2EC47A60
+[2016.03.31-02.39.06:438][263]LogExit: GameNetDriver None shut down
+[2016.03.31-02.39.06:459][264]LogPlayLevel:Display: Destroying online subsystem :Context_4
+[2016.03.31-02.39.06:459][264]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.03.31-02.43.15:961][472]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.31-02.43.16:475][472]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.03.31-02.44.22:465][244]BlueprintLog: New page: Compile Lose_Widget
+[2016.03.31-02.44.22:629][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.31-02.44.22:629][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_3) Not registered. Aborting.
+[2016.03.31-02.44.22:629][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_4) Not registered. Aborting.
+[2016.03.31-02.44.22:629][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.RotatingMovementComponent_5) Not registered. Aborting.
+[2016.03.31-02.44.22:657][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D2E151080
+[2016.03.31-02.44.22:658][244]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D2E1516C0
+[2016.03.31-02.44.22:668][244]BlueprintEditorCompileResults: Info [0504.10] Compile of Lose_Widget successful! [in 202 ms]
+[2016.03.31-02.44.24:426][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Hud/Lose_Widget" FILE="../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset" SILENT=true
+[2016.03.31-02.44.24:473][325]LogSavePackage: Save=16.786436ms
+[2016.03.31-02.44.24:473][325]LogSavePackage: Moving '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Saved/Lose_WidgetB533C7E4485399101B1722B6F9BED1D4.tmp' to '../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset'
+[2016.03.31-02.44.24:476][325]LogSavePackage: Total save time: 49.367428ms
+[2016.03.31-02.44.24:476][325]LogSavePackage:Display: Finished SavePackage ../../../../../../../../Users/SAA/Documents/Unreal Projects/LoseOrDIE/Content/MyAssets/Hud/Lose_Widget.uasset
+[2016.03.31-02.44.25:669][383]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.44.25:669][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.31-02.44.25:669][383]PIE: New page: PIE session: MainMenu (Mar 30, 2016, 8:44:25 PM)
+[2016.03.31-02.44.25:670][383]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.31-02.44.25:677][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006964s)
+[2016.03.31-02.44.25:677][383]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.31-02.44.25:677][383]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2016.03.31-02.44.25:677][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.007901s)
+[2016.03.31-02.44.25:715][383]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.31-02.44.25:730][383]LogInit: FAudioDevice initialized.
+[2016.03.31-02.44.25:763][383]LogWorld: Game class is 'MainMenuGamemode_C'
+[2016.03.31-02.44.25:766][383]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2016.03.30-23.44.25
+[2016.03.31-02.44.25:766][383]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.44.25:766][383]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.44.25:766][383]LogWorld: Bringing up level for play took: 0.002296
+[2016.03.31-02.44.25:777][383]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.31-02.44.25:778][383]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.03.31-02.44.25:778][383]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.31-02.44.25:780][383]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.73
+[2016.03.31-02.44.25:780][383]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2016.03.31-02.44.27:616][462]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve MapaCorrida.umap.
+[2016.03.31-02.44.27:737][462]LogPackageName: SearchForPackageOnDisk took   0.119s to resolve MapaCorrida.umap.
+[2016.03.31-02.44.27:737][462]LogNet: Browse: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.31-02.44.27:737][462]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MapaCorrida?listen
+[2016.03.31-02.44.27:770][462]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D7734B880
+[2016.03.31-02.44.27:775][462]Cmd: MEM
+[2016.03.31-02.44.27:809][462]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-02.44.27:809][462]LogMemory: Process Physical Memory: 973.83 MB used, 973.83 MB peak
+[2016.03.31-02.44.27:809][462]LogMemory: Process Virtual Memory: 1599.49 MB used, 1649.91 MB peak
+[2016.03.31-02.44.27:809][462]LogMemory: Physical Memory: 6676.47 MB used, 16316.02 MB total
+[2016.03.31-02.44.27:809][462]LogMemory: Virtual Memory: 2418.56 MB used, 134217728.00 MB total
+[2016.03.31-02.44.27:809][462]LogMemory: 
+[2016.03.31-02.44.27:809][462]Allocator Stats for TBB: (not implemented)
+[2016.03.31-02.44.28:116][462]LogAIModule: Creating AISystem for world MapaCorrida
+[2016.03.31-02.44.28:116][462]LogWorld: Game class is 'RunGameMode_C'
+[2016.03.31-02.44.28:117][462]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.03.31-02.44.28:117][462]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 7777
+[2016.03.31-02.44.28:121][462]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida up for play (max tick rate 60) at 2016.03.30-23.44.28
+[2016.03.31-02.44.28:121][462]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.44.28:121][462]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
+[2016.03.31-02.44.28:121][462]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MapaCorrida.MapaCorrida:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.31-02.44.28:122][462]LogWorld: Bringing up level for play took: 0.003919
+[2016.03.31-02.44.28:122][462]LogOnline:Warning: NULL: No game present to join for session (Game)
+[2016.03.31-02.44.28:122][462]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.03.31-02.44.42:124][ 45]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve MainMenu.umap.
+[2016.03.31-02.44.42:223][ 45]LogPackageName: SearchForPackageOnDisk took   0.098s to resolve MainMenu.umap.
+[2016.03.31-02.44.42:223][ 45]LogNet: Browse: /Game/ThirdPersonBP/Maps/MainMenu?listen
+[2016.03.31-02.44.42:223][ 45]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/MainMenu?listen
+[2016.03.31-02.44.42:223][ 45]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2016.03.31-02.44.42:223][ 45]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2016.03.31-02.44.42:223][ 45]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2016.03.31-02.44.42:261][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000024D4E273D80
+[2016.03.31-02.44.42:262][ 45]Cmd: MEM
+[2016.03.31-02.44.42:289][ 45]LogMemory: Platform Memory Stats for Windows
+[2016.03.31-02.44.42:289][ 45]LogMemory: Process Physical Memory: 1008.09 MB used, 1031.95 MB peak
+[2016.03.31-02.44.42:289][ 45]LogMemory: Process Virtual Memory: 1637.35 MB used, 1751.24 MB peak
+[2016.03.31-02.44.42:289][ 45]LogMemory: Physical Memory: 6701.07 MB used, 16316.02 MB total
+[2016.03.31-02.44.42:289][ 45]LogMemory: Virtual Memory: 2506.38 MB used, 134217728.00 MB total
+[2016.03.31-02.44.42:289][ 45]LogMemory: 
+[2016.03.31-02.44.42:289][ 45]Allocator Stats for TBB: (not implemented)
+[2016.03.31-02.44.42:289][ 45]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2016.03.31-02.44.42:293][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004413s)
+[2016.03.31-02.44.42:294][ 45]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.31-02.44.42:294][ 45]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2016.03.31-02.44.42:294][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPer
